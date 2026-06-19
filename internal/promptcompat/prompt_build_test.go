@@ -74,13 +74,13 @@ func TestBuildOpenAIFinalPrompt_VercelPreparePathKeepsFinalAnswerInstruction(t *
 	}
 
 	finalPrompt, _ := buildOpenAIFinalPrompt(messages, tools, "", false)
-	if !strings.Contains(finalPrompt, "Remember: The ONLY valid way to use tools is the <|DSML|tool_calls>...</|DSML|tool_calls> block at the end of your response.") {
+	if !strings.Contains(finalPrompt, "Reminder: The ONLY sanctioned way to invoke a function is the <|DSML|tool_calls>...</|DSML|tool_calls> block at the end of your response.") {
 		t.Fatalf("vercel prepare finalPrompt missing final tool-call anchor instruction: %q", finalPrompt)
 	}
-	if !strings.Contains(finalPrompt, "TOOL CALL FORMAT") {
+	if !strings.Contains(finalPrompt, "FUNCTION INVOCATION CONTRACT") {
 		t.Fatalf("vercel prepare finalPrompt missing xml format instruction: %q", finalPrompt)
 	}
-	if !strings.Contains(finalPrompt, "Do NOT wrap XML in markdown fences") {
+	if !strings.Contains(finalPrompt, "Do NOT wrap the XML in markdown fences") {
 		t.Fatalf("vercel prepare finalPrompt missing no-fence xml instruction: %q", finalPrompt)
 	}
 	if strings.Contains(finalPrompt, "```json") {
@@ -110,14 +110,14 @@ func TestBuildOpenAIPromptWithToolInstructionsOnlyOmitsSchemas(t *testing.T) {
 	if len(toolNames) != 1 || toolNames[0] != "search" {
 		t.Fatalf("unexpected tool names: %#v", toolNames)
 	}
-	if strings.Contains(finalPrompt, "You have access to these tools") || strings.Contains(finalPrompt, "Description: search docs") || strings.Contains(finalPrompt, "Parameters:") {
-		t.Fatalf("tool descriptions should be externalized, got: %q", finalPrompt)
+	if strings.Contains(finalPrompt, "The following functions are exposed for this turn") || strings.Contains(finalPrompt, "Synopsis: search docs") || strings.Contains(finalPrompt, "Contract:") {
+		t.Fatalf("function descriptions should be externalized, got: %q", finalPrompt)
 	}
-	if !strings.Contains(finalPrompt, "Treat DS2API_TOOLS.txt as the authoritative list of callable tools and schemas") {
+	if !strings.Contains(finalPrompt, "Treat tool_schema.txt as the canonical catalogue of invokable functions and parameter shapes") {
 		t.Fatalf("expected instructions-only prompt to point model at tools file, got: %q", finalPrompt)
 	}
-	if !strings.Contains(finalPrompt, "TOOL CALL FORMAT") || !strings.Contains(finalPrompt, "Remember: The ONLY valid way to use tools") {
-		t.Fatalf("expected tool format instructions to remain in live prompt, got: %q", finalPrompt)
+	if !strings.Contains(finalPrompt, "FUNCTION INVOCATION CONTRACT") || !strings.Contains(finalPrompt, "Reminder: The ONLY sanctioned way to invoke a function") {
+		t.Fatalf("expected function-call format instructions to remain in live prompt, got: %q", finalPrompt)
 	}
 }
 
@@ -139,12 +139,12 @@ func TestBuildOpenAIToolsContextTranscriptContainsOnlyDescriptions(t *testing.T)
 	if len(toolNames) != 1 || toolNames[0] != "search" {
 		t.Fatalf("unexpected tool names: %#v", toolNames)
 	}
-	for _, want := range []string{"# DS2API_TOOLS.txt", "You have access to these tools", "Tool: search", "Description: search docs", `Parameters: {"type":"object"}`} {
+	for _, want := range []string{"# Callable Surface", "The following functions are exposed for this turn", "Callable: search", "Synopsis: search docs", `Contract: {"type":"object"}`} {
 		if !strings.Contains(transcript, want) {
 			t.Fatalf("expected tools transcript to contain %q, got: %q", want, transcript)
 		}
 	}
-	if strings.Contains(transcript, "TOOL CALL FORMAT") || strings.Contains(transcript, "<|DSML|tool_calls>") {
+	if strings.Contains(transcript, "FUNCTION INVOCATION CONTRACT") || strings.Contains(transcript, "<|DSML|tool_calls>") {
 		t.Fatalf("tools transcript should not duplicate format instructions, got: %q", transcript)
 	}
 }
@@ -169,7 +169,7 @@ func TestBuildOpenAIFinalPromptPrependsOutputIntegrityGuard(t *testing.T) {
 
 	finalPrompt, _ := buildOpenAIFinalPrompt(messages, tools, "", false)
 	guardIdx := strings.Index(finalPrompt, "Output integrity guard")
-	toolIdx := strings.Index(finalPrompt, "TOOL CALL FORMAT")
+	toolIdx := strings.Index(finalPrompt, "FUNCTION INVOCATION CONTRACT")
 	if guardIdx < 0 {
 		t.Fatalf("expected output integrity guard in final prompt, got: %q", finalPrompt)
 	}
@@ -199,13 +199,13 @@ func TestBuildOpenAIFinalPromptReadLikeToolIncludesCacheGuard(t *testing.T) {
 	}
 
 	finalPrompt, _ := buildOpenAIFinalPrompt(messages, tools, "", false)
-	if !strings.Contains(finalPrompt, "Read-tool cache guard") {
+	if !strings.Contains(finalPrompt, "Read-style function cache guard") {
 		t.Fatalf("read-like tool prompt missing cache guard: %q", finalPrompt)
 	}
 	if !strings.Contains(finalPrompt, "provides no file body") {
 		t.Fatalf("read-like tool prompt missing no-body handling: %q", finalPrompt)
 	}
-	if !strings.Contains(finalPrompt, "Do not repeatedly call the same read request") {
+	if !strings.Contains(finalPrompt, "Do not repeatedly invoke the same read request") {
 		t.Fatalf("read-like tool prompt missing loop guard: %q", finalPrompt)
 	}
 }
@@ -228,7 +228,7 @@ func TestBuildOpenAIFinalPromptNonReadToolOmitsCacheGuard(t *testing.T) {
 	}
 
 	finalPrompt, _ := buildOpenAIFinalPrompt(messages, tools, "", false)
-	if strings.Contains(finalPrompt, "Read-tool cache guard") {
+	if strings.Contains(finalPrompt, "Read-style function cache guard") {
 		t.Fatalf("non-read tool prompt should not include read cache guard: %q", finalPrompt)
 	}
 }

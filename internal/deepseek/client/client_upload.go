@@ -7,6 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"io"
 	"mime/multipart"
 	"net/http"
 	"net/textproto"
@@ -56,10 +57,11 @@ func (c *Client) UploadFile(ctx context.Context, a *auth.RequestAuth, req Upload
 	}
 	purpose := strings.TrimSpace(req.Purpose)
 	modelType := strings.ToLower(strings.TrimSpace(req.ModelType))
-	body, contentTypeHeader, err := buildUploadMultipartBody(filename, contentType, req.Data)
+	bodyFactory, err := buildUploadMultipartBodyFactory(filename, contentType, req.Data)
 	if err != nil {
 		return nil, err
 	}
+	contentTypeHeader := bodyFactory.ContentType()
 	capturePayload := map[string]any{
 		"filename":     filename,
 		"content_type": contentType,
@@ -84,7 +86,7 @@ func (c *Client) UploadFile(ctx context.Context, a *auth.RequestAuth, req Upload
 			}
 			clients = c.requestClientsForAuth(ctx, a)
 		}
-		headers := c.authHeaders(a.DeepSeekToken)
+		headers := c.authHeadersForAuth(a)
 		headers["Content-Type"] = contentTypeHeader
 		if modelType != "" {
 			headers["x-model-type"] = modelType
@@ -92,10 +94,14 @@ func (c *Client) UploadFile(ctx context.Context, a *auth.RequestAuth, req Upload
 		headers["x-ds-pow-response"] = powHeader
 		headers["x-file-size"] = strconv.Itoa(len(req.Data))
 		headers["x-thinking-enabled"] = "1"
-		resp, err := c.doUpload(ctx, clients.regular, clients.fallback, dsprotocol.DeepSeekUploadFileURL, headers, body)
+		resp, err := c.doUpload(ctx, clients.regular, clients.fallback, dsprotocol.DeepSeekUploadFileURL, headers, bodyFactory.NewReader)
 		if err != nil {
 			config.Logger.Warn("[upload_file] request error", "error", err, "account", a.AccountID, "filename", filename)
-			return nil, err
+			powHeader = ""
+			lastFailureKind = FailureUnknown
+			lastFailureMessage = err.Error()
+			attempts++
+			continue
 		}
 		if captureSession != nil {
 			resp.Body = captureSession.WrapBody(resp.Body, resp.StatusCode)
@@ -168,23 +174,54 @@ func (c *Client) UploadFile(ctx context.Context, a *auth.RequestAuth, req Upload
 	return nil, errors.New("upload file failed")
 }
 
-func buildUploadMultipartBody(filename, contentType string, data []byte) ([]byte, string, error) {
-	var buf bytes.Buffer
-	writer := multipart.NewWriter(&buf)
+type uploadMultipartBodyFactory struct {
+	prefix      []byte
+	data        []byte
+	suffix      []byte
+	contentType string
+}
+
+func buildUploadMultipartBodyFactory(filename, contentType string, data []byte) (*uploadMultipartBodyFactory, error) {
+	var prefix bytes.Buffer
+	writer := multipart.NewWriter(&prefix)
 	partHeader := textproto.MIMEHeader{}
 	partHeader.Set("Content-Disposition", fmt.Sprintf(`form-data; name="file"; filename=%q`, escapeMultipartFilename(filename)))
 	partHeader.Set("Content-Type", contentType)
-	part, err := writer.CreatePart(partHeader)
+	if _, err := writer.CreatePart(partHeader); err != nil {
+		return nil, err
+	}
+	partPrefix := append([]byte(nil), prefix.Bytes()...)
+	if err := writer.Close(); err != nil {
+		return nil, err
+	}
+	full := prefix.Bytes()
+	partSuffix := append([]byte(nil), full[len(partPrefix):]...)
+	return &uploadMultipartBodyFactory{
+		prefix:      partPrefix,
+		data:        data,
+		suffix:      partSuffix,
+		contentType: writer.FormDataContentType(),
+	}, nil
+}
+
+func (f *uploadMultipartBodyFactory) ContentType() string {
+	return f.contentType
+}
+
+func (f *uploadMultipartBodyFactory) NewReader() io.Reader {
+	return io.MultiReader(bytes.NewReader(f.prefix), bytes.NewReader(f.data), bytes.NewReader(f.suffix))
+}
+
+func buildUploadMultipartBody(filename, contentType string, data []byte) ([]byte, string, error) {
+	factory, err := buildUploadMultipartBodyFactory(filename, contentType, data)
 	if err != nil {
 		return nil, "", err
 	}
-	if _, err := part.Write(data); err != nil {
+	var buf bytes.Buffer
+	if _, err := io.Copy(&buf, factory.NewReader()); err != nil {
 		return nil, "", err
 	}
-	if err := writer.Close(); err != nil {
-		return nil, "", err
-	}
-	return buf.Bytes(), writer.FormDataContentType(), nil
+	return buf.Bytes(), factory.ContentType(), nil
 }
 
 func escapeMultipartFilename(filename string) string {
@@ -197,19 +234,31 @@ func escapeMultipartFilename(filename string) string {
 	return filename
 }
 
-func (c *Client) doUpload(ctx context.Context, doer trans.Doer, _ trans.Doer, url string, headers map[string]string, body []byte) (*http.Response, error) {
-	req, err := http.NewRequestWithContext(ctx, http.MethodPost, url, bytes.NewReader(body))
+func (c *Client) doUpload(ctx context.Context, doer trans.Doer, fallback trans.Doer, url string, headers map[string]string, bodyFactory func() io.Reader) (*http.Response, error) {
+	newReq := func() (*http.Request, error) {
+		req, err := http.NewRequestWithContext(ctx, http.MethodPost, url, bodyFactory())
+		if err != nil {
+			return nil, err
+		}
+		for k, v := range headers {
+			req.Header.Set(k, v)
+		}
+		return req, nil
+	}
+	req, err := newReq()
 	if err != nil {
 		return nil, err
-	}
-	for k, v := range headers {
-		req.Header.Set(k, v)
 	}
 	resp, err := doer.Do(req)
 	if err == nil {
 		return resp, nil
 	}
-	return nil, err
+	config.Logger.Warn("[deepseek] fingerprint upload request failed, fallback to std transport", "url", url, "error", err)
+	req2, reqErr := newReq()
+	if reqErr != nil {
+		return nil, reqErr
+	}
+	return fallback.Do(req2)
 }
 
 func extractUploadFileResult(resp map[string]any) *UploadFileResult {

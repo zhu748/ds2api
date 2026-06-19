@@ -40,7 +40,7 @@ func TestBuildUploadMultipartBodyOmitsPurposeAndIncludesFilePart(t *testing.T) {
 	}
 }
 
-func TestDoUploadDoesNotFallbackForNonIdempotentUpload(t *testing.T) {
+func TestDoUploadFallsBackWhenPrimaryTransportFails(t *testing.T) {
 	var fallbackCalled bool
 	client := &Client{}
 	_, err := client.doUpload(
@@ -55,13 +55,13 @@ func TestDoUploadDoesNotFallbackForNonIdempotentUpload(t *testing.T) {
 		}),
 		dsprotocol.DeepSeekUploadFileURL,
 		map[string]string{"Content-Type": "multipart/form-data"},
-		[]byte("body"),
+		func() io.Reader { return strings.NewReader("body") },
 	)
-	if err == nil {
-		t.Fatal("expected upload error")
+	if err != nil {
+		t.Fatalf("unexpected upload error: %v", err)
 	}
-	if fallbackCalled {
-		t.Fatal("upload fallback should not be called for a non-idempotent request")
+	if !fallbackCalled {
+		t.Fatal("expected upload fallback to be invoked on transport failure")
 	}
 }
 

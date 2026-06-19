@@ -166,7 +166,7 @@ func TestGeminiDirectAppliesCurrentInputFile(t *testing.T) {
 	if len(ds.uploadCalls) != 1 {
 		t.Fatalf("expected one current input upload, got %d", len(ds.uploadCalls))
 	}
-	if ds.uploadCalls[0].Filename != "DS2API_HISTORY.txt" {
+	if ds.uploadCalls[0].Filename != "chat_context.txt" {
 		t.Fatalf("unexpected upload filename: %q", ds.uploadCalls[0].Filename)
 	}
 	if len(ds.payloads) != 1 {
@@ -177,7 +177,7 @@ func TestGeminiDirectAppliesCurrentInputFile(t *testing.T) {
 		t.Fatalf("expected uploaded history ref id, got %#v", ds.payloads[0]["ref_file_ids"])
 	}
 	prompt, _ := ds.payloads[0]["prompt"].(string)
-	if !strings.Contains(prompt, "Continue from the latest state in the attached DS2API_HISTORY.txt context.") {
+	if !strings.Contains(prompt, "Pick up from the most recent state inside chat_context.txt.") {
 		t.Fatalf("expected continuation prompt, got %q", prompt)
 	}
 	snapshot, err := historyStore.Snapshot()
@@ -200,7 +200,7 @@ func TestGeminiDirectAppliesCurrentInputFile(t *testing.T) {
 	if full.HistoryText != string(ds.uploadCalls[0].Data) {
 		t.Fatalf("expected uploaded current input file to be persisted in history text")
 	}
-	if len(full.Messages) != 1 || !strings.Contains(full.Messages[0].Content, "Continue from the latest state in the attached DS2API_HISTORY.txt context.") {
+	if len(full.Messages) != 1 || !strings.Contains(full.Messages[0].Content, "Pick up from the most recent state inside chat_context.txt.") {
 		t.Fatalf("expected persisted message to match upstream continuation prompt, got %#v", full.Messages)
 	}
 }
@@ -232,15 +232,15 @@ func TestGeminiCurrentInputFileUploadsToolsSeparately(t *testing.T) {
 	if len(ds.uploadCalls) != 2 {
 		t.Fatalf("expected history and tools uploads, got %d", len(ds.uploadCalls))
 	}
-	if ds.uploadCalls[0].Filename != "DS2API_HISTORY.txt" || ds.uploadCalls[1].Filename != "DS2API_TOOLS.txt" {
+	if ds.uploadCalls[0].Filename != "chat_context.txt" || ds.uploadCalls[1].Filename != "tool_schema.txt" {
 		t.Fatalf("unexpected upload filenames: %#v", ds.uploadCalls)
 	}
 	historyText := string(ds.uploadCalls[0].Data)
-	if strings.Contains(historyText, "Description: eval") {
+	if strings.Contains(historyText, "Synopsis: eval") {
 		t.Fatalf("history transcript should not embed tool descriptions, got %q", historyText)
 	}
 	toolsText := string(ds.uploadCalls[1].Data)
-	if !strings.Contains(toolsText, "# DS2API_TOOLS.txt") || !strings.Contains(toolsText, "Tool: eval_javascript") || !strings.Contains(toolsText, "Description: eval") {
+	if !strings.Contains(toolsText, "# Callable Surface") || !strings.Contains(toolsText, "Callable: eval_javascript") || !strings.Contains(toolsText, "Synopsis: eval") {
 		t.Fatalf("expected tools transcript to include Gemini tool schema, got %q", toolsText)
 	}
 	refIDs, _ := ds.payloads[0]["ref_file_ids"].([]any)
@@ -248,10 +248,10 @@ func TestGeminiCurrentInputFileUploadsToolsSeparately(t *testing.T) {
 		t.Fatalf("expected history and tools ref ids first, got %#v", ds.payloads[0]["ref_file_ids"])
 	}
 	prompt, _ := ds.payloads[0]["prompt"].(string)
-	if !strings.Contains(prompt, "DS2API_TOOLS.txt") || !strings.Contains(prompt, "TOOL CALL FORMAT") {
+	if !strings.Contains(prompt, "tool_schema.txt") || !strings.Contains(prompt, "FUNCTION INVOCATION CONTRACT") {
 		t.Fatalf("expected live prompt to reference tools file and retain format instructions, got %q", prompt)
 	}
-	if strings.Contains(prompt, "Description: eval") {
+	if strings.Contains(prompt, "Synopsis: eval") {
 		t.Fatalf("live prompt should not inline tool descriptions, got %q", prompt)
 	}
 }

@@ -1,9 +1,13 @@
 package protocol
 
 import (
+	"crypto/sha256"
 	_ "embed"
+	"encoding/binary"
 	"encoding/json"
 	"fmt"
+	"os"
+	"strings"
 )
 
 const (
@@ -48,6 +52,7 @@ var ClientVersion string
 var BaseHeaders = map[string]string{}
 var SkipContainsPatterns = cloneStringSlice(defaultSkipContainsPatterns)
 var SkipExactPathSet = toStringSet(defaultSkipExactPaths)
+var explicitRangersID string
 
 type clientConstants struct {
 	Name            string `json:"name"`
@@ -55,6 +60,8 @@ type clientConstants struct {
 	Version         string `json:"version"`
 	AndroidAPILevel string `json:"android_api_level"`
 	Locale          string `json:"locale"`
+	TimezoneOffset  string `json:"timezone_offset"`
+	RangersID       string `json:"rangers_id"`
 }
 
 type sharedConstants struct {
@@ -77,6 +84,7 @@ func init() {
 
 func applySharedConstants(cfg sharedConstants) {
 	client := normalizeClientConstants(cfg.Client)
+	client = applyEnvClientOverrides(client)
 	ClientVersion = client.Version
 	BaseHeaders = buildBaseHeaders(client, cfg.BaseHeaders)
 	SkipContainsPatterns = cloneStringSlice(defaultSkipContainsPatterns)
@@ -102,7 +110,82 @@ func normalizeClientConstants(in clientConstants) clientConstants {
 	if in.Locale == "" {
 		in.Locale = "zh_CN"
 	}
+	if in.TimezoneOffset == "" {
+		in.TimezoneOffset = "28800"
+	}
+	if in.RangersID == "" {
+		in.RangersID = deriveDefaultRangersID()
+	}
 	return in
+}
+
+func applyEnvClientOverrides(in clientConstants) clientConstants {
+	if v := strings.TrimSpace(os.Getenv("DS2API_DEEPSEEK_CLIENT_NAME")); v != "" {
+		in.Name = v
+	}
+	if v := strings.TrimSpace(os.Getenv("DS2API_DEEPSEEK_CLIENT_PLATFORM")); v != "" {
+		in.Platform = v
+	}
+	if v := strings.TrimSpace(os.Getenv("DS2API_DEEPSEEK_CLIENT_VERSION")); v != "" {
+		in.Version = v
+	}
+	if v := strings.TrimSpace(os.Getenv("DS2API_DEEPSEEK_ANDROID_API_LEVEL")); v != "" {
+		in.AndroidAPILevel = v
+	}
+	if v := strings.TrimSpace(os.Getenv("DS2API_DEEPSEEK_CLIENT_LOCALE")); v != "" {
+		in.Locale = v
+	}
+	if v := strings.TrimSpace(os.Getenv("DS2API_DEEPSEEK_CLIENT_TIMEZONE_OFFSET")); v != "" {
+		in.TimezoneOffset = v
+	}
+	if v := strings.TrimSpace(os.Getenv("DS2API_DEEPSEEK_RANGERS_ID")); v != "" {
+		in.RangersID = v
+		explicitRangersID = v
+	}
+	return in
+}
+
+func deriveDefaultRangersID() string {
+	seedParts := []string{
+		os.Getenv("DS2API_DEEPSEEK_RANGERS_SEED"),
+		os.Getenv("VERCEL_PROJECT_ID"),
+		os.Getenv("RENDER_SERVICE_ID"),
+		os.Getenv("RENDER_EXTERNAL_HOSTNAME"),
+		os.Getenv("DS2API_CONFIG_PATH"),
+	}
+	if hostname, err := os.Hostname(); err == nil {
+		seedParts = append(seedParts, hostname)
+	}
+	if userConfigDir, err := os.UserConfigDir(); err == nil {
+		seedParts = append(seedParts, userConfigDir)
+	}
+	seed := strings.Join(seedParts, "|")
+	if strings.Trim(seed, "| ") == "" {
+		seed = "ds2api:deepseek:android"
+	}
+	return deriveRangersIDFromSeed(seed)
+}
+
+func deriveRangersIDFromSeed(seed string) string {
+	seed = strings.TrimSpace(seed)
+	if seed == "" {
+		seed = "ds2api:deepseek:android"
+	}
+	sum := sha256.Sum256([]byte(seed))
+	n := binary.BigEndian.Uint64(sum[:8])%1_000_000_000_000_000_000 + 7_000_000_000_000_000_000
+	return fmt.Sprintf("%d", n)
+}
+
+func BaseHeadersForRangersSeed(seed string) map[string]string {
+	out := cloneStringMap(BaseHeaders)
+	if explicitRangersID != "" {
+		out["x-rangers-id"] = explicitRangersID
+		return out
+	}
+	if strings.TrimSpace(seed) != "" {
+		out["x-rangers-id"] = deriveRangersIDFromSeed("account:" + seed)
+	}
+	return out
 }
 
 func buildBaseHeaders(client clientConstants, overrides map[string]string) map[string]string {
@@ -128,8 +211,34 @@ func buildBaseHeaders(client clientConstants, overrides map[string]string) map[s
 	}
 	if client.Locale != "" {
 		out["x-client-locale"] = client.Locale
+		if _, ok := out["Accept-Language"]; !ok {
+			out["Accept-Language"] = acceptLanguageFromLocale(client.Locale)
+		}
+	}
+	if client.TimezoneOffset != "" {
+		out["x-client-timezone-offset"] = client.TimezoneOffset
+	}
+	if client.RangersID != "" {
+		out["x-rangers-id"] = client.RangersID
 	}
 	return out
+}
+
+func acceptLanguageFromLocale(locale string) string {
+	locale = strings.TrimSpace(locale)
+	if locale == "" {
+		return ""
+	}
+	tag := strings.ReplaceAll(locale, "_", "-")
+	base := tag
+	if idx := strings.Index(base, "-"); idx >= 0 {
+		base = base[:idx]
+	}
+	base = strings.TrimSpace(base)
+	if base == "" || base == tag {
+		return tag
+	}
+	return tag + "," + base + ";q=0.9"
 }
 
 func cloneStringMap(in map[string]string) map[string]string {

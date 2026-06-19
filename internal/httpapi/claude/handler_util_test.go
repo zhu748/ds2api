@@ -332,7 +332,7 @@ func TestBuildClaudeToolPromptSingleTool(t *testing.T) {
 	if !containsStr(prompt, "<|DSML|tool_calls>") {
 		t.Fatalf("expected DSML tool_calls format in prompt")
 	}
-	if !containsStr(prompt, "TOOL CALL FORMAT") {
+	if !containsStr(prompt, "FUNCTION INVOCATION CONTRACT") {
 		t.Fatalf("expected tool call format header in prompt")
 	}
 }
@@ -365,7 +365,7 @@ func TestBuildClaudeToolPromptSupportsOpenAIStyleFunctionTool(t *testing.T) {
 		},
 	}
 	prompt := buildClaudeToolPrompt(tools)
-	if !containsStr(prompt, "Tool: search") {
+	if !containsStr(prompt, "Callable: search") {
 		t.Fatalf("expected OpenAI-style function tool name in prompt, got: %q", prompt)
 	}
 	if !containsStr(prompt, "Search via function tool") {

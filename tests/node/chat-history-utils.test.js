@@ -1,10 +1,16 @@
-'use strict';
+﻿'use strict';
 
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const path = require('path');
+const url = require('url');
+
+const utilsModuleURL = url.pathToFileURL(
+  path.resolve(__dirname, '../../webui/src/features/chatHistory/chatHistoryUtils.js')
+).href;
 
 async function loadUtils() {
-  return import('../../webui/src/features/chatHistory/chatHistoryUtils.js');
+  return import(utilsModuleURL);
 }
 
 test('chat history strict parser merges current input file placeholder', async () => {
@@ -15,7 +21,7 @@ test('chat history strict parser merges current input file placeholder', async (
   const item = {
     messages: [{
       role: 'user',
-      content: 'Continue from the latest state in the attached DS2API_HISTORY.txt context. Treat it as the current working state and answer the latest user request directly.',
+      content: 'Pick up from the most recent state inside chat_context.txt. Treat that file as the authoritative working state and reply to the latest user request directly.',
     }],
     history_text: [
       '<|begin▁of▁sentence|>',
@@ -67,11 +73,11 @@ test('chat history transcript parser replaces current input file placeholder', a
   const item = {
     messages: [{
       role: 'user',
-      content: 'Continue from the latest state in the attached DS2API_HISTORY.txt context. Treat it as the current working state and answer the latest user request directly.',
+      content: 'Pick up from the most recent state inside chat_context.txt. Treat that file as the authoritative working state and reply to the latest user request directly.',
     }],
     history_text: [
-      '# DS2API_HISTORY.txt',
-      'Prior conversation history and tool progress.',
+      '# Session Snapshot',
+      'Compiled conversational state and prior function-call outcomes.',
       '',
       '=== 1. SYSTEM ===',
       'policy',

@@ -2,7 +2,9 @@ package client
 
 import (
 	"context"
+	"crypto/sha256"
 	dsprotocol "ds2api/internal/deepseek/protocol"
+	"encoding/hex"
 	"errors"
 	"fmt"
 	"net/http"
@@ -17,7 +19,7 @@ func (c *Client) Login(ctx context.Context, acc config.Account) (string, error) 
 	clients := c.requestClientsForAccount(acc)
 	payload := map[string]any{
 		"password":  strings.TrimSpace(acc.Password),
-		"device_id": "deepseek_to_api",
+		"device_id": loginDeviceID(acc),
 		"os":        "android",
 	}
 	if email := strings.TrimSpace(acc.Email); email != "" {
@@ -29,7 +31,7 @@ func (c *Client) Login(ctx context.Context, acc config.Account) (string, error) 
 	} else {
 		return "", errors.New("missing email/mobile")
 	}
-	resp, err := c.postJSON(ctx, clients.regular, clients.fallback, dsprotocol.DeepSeekLoginURL, dsprotocol.BaseHeaders, payload)
+	resp, err := c.postJSON(ctx, clients.regular, clients.fallback, dsprotocol.DeepSeekLoginURL, accountBaseHeaders(acc), payload)
 	if err != nil {
 		return "", err
 	}
@@ -58,7 +60,7 @@ func (c *Client) CreateSession(ctx context.Context, a *auth.RequestAuth, maxAtte
 	attempts := 0
 	refreshed := false
 	for attempts < maxAttempts {
-		headers := c.authHeaders(a.DeepSeekToken)
+		headers := c.authHeadersForAuth(a)
 		resp, status, err := c.postJSONWithStatus(ctx, clients.regular, clients.fallback, dsprotocol.DeepSeekCreateSessionURL, headers, map[string]any{"agent": "chat"})
 		if err != nil {
 			config.Logger.Warn("[create_session] request error", "error", err, "account", a.AccountID)
@@ -109,7 +111,7 @@ func (c *Client) GetPowForTarget(ctx context.Context, a *auth.RequestAuth, targe
 	lastFailureKind := FailureUnknown
 	lastFailureMessage := ""
 	for attempts < maxAttempts {
-		headers := c.authHeaders(a.DeepSeekToken)
+		headers := c.authHeadersForAuth(a)
 		resp, status, err := c.postJSONWithStatus(ctx, clients.regular, clients.fallback, dsprotocol.DeepSeekCreatePowURL, headers, map[string]any{"target_path": targetPath})
 		if err != nil {
 			config.Logger.Warn("[get_pow] request error", "error", err, "account", a.AccountID, "target_path", targetPath)
@@ -159,12 +161,58 @@ func (c *Client) GetPowForTarget(ctx context.Context, a *auth.RequestAuth, targe
 }
 
 func (c *Client) authHeaders(token string) map[string]string {
-	headers := make(map[string]string, len(dsprotocol.BaseHeaders)+1)
-	for k, v := range dsprotocol.BaseHeaders {
-		headers[k] = v
+	return c.authHeadersForAuth(&auth.RequestAuth{DeepSeekToken: token})
+}
+
+func (c *Client) authHeadersForAuth(a *auth.RequestAuth) map[string]string {
+	if a == nil {
+		return c.authHeaders("")
 	}
-	headers["authorization"] = "Bearer " + token
+	headers := dsprotocol.BaseHeadersForRangersSeed(accountHeaderSeed(a))
+	headers["authorization"] = "Bearer " + a.DeepSeekToken
 	return headers
+}
+
+func accountBaseHeaders(acc config.Account) map[string]string {
+	return dsprotocol.BaseHeadersForRangersSeed(accountIdentifierSeed(acc))
+}
+
+func accountHeaderSeed(a *auth.RequestAuth) string {
+	if a == nil {
+		return ""
+	}
+	if seed := accountIdentifierSeed(a.Account); seed != "" {
+		return seed
+	}
+	return strings.TrimSpace(a.AccountID)
+}
+
+func accountIdentifierSeed(acc config.Account) string {
+	if id := strings.TrimSpace(acc.Identifier()); id != "" {
+		return strings.ToLower(id)
+	}
+	if email := strings.TrimSpace(acc.Email); email != "" {
+		return strings.ToLower(email)
+	}
+	if mobile := strings.TrimSpace(acc.Mobile); mobile != "" {
+		return strings.ToLower(mobile)
+	}
+	return ""
+}
+
+func loginDeviceID(acc config.Account) string {
+	identifier := strings.ToLower(strings.TrimSpace(acc.Identifier()))
+	if identifier == "" {
+		identifier = strings.ToLower(strings.TrimSpace(acc.Email))
+	}
+	if identifier == "" {
+		identifier = strings.ToLower(strings.TrimSpace(acc.Mobile))
+	}
+	if identifier == "" {
+		return "deepseek_to_api"
+	}
+	sum := sha256.Sum256([]byte("ds2api:deepseek:android:" + identifier))
+	return hex.EncodeToString(sum[:8])
 }
 
 func isTokenInvalid(status int, code int, bizCode int, msg string, bizMsg string) bool {

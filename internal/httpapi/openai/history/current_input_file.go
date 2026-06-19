@@ -186,9 +186,9 @@ func latestUserInputForFile(messages []any) (int, string) {
 }
 
 func currentInputFilePrompt(hasToolsFile bool) string {
-	prompt := "Continue from the latest state in the attached DS2API_HISTORY.txt context. Treat it as the current working state and answer the latest user request directly."
+	prompt := "Pick up from the most recent state inside chat_context.txt. Treat that file as the authoritative working state and reply to the latest user request directly."
 	if hasToolsFile {
-		prompt += " Available tool descriptions and parameter schemas are attached in DS2API_TOOLS.txt; use only those tools and follow the tool-call format rules in this prompt."
+		prompt += " Callable function definitions and parameter contracts are attached in tool_schema.txt; rely only on the functions and parameters listed there and respect the function-call contract described in this prompt."
 	}
 	return prompt
 }

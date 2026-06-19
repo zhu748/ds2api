@@ -1,215 +1,215 @@
-{"code":0,"msg":"","data":{"biz_code":0,"biz_msg":"","biz_data":{"id":"file-9c8ae986-75f7-4611-9956-5e1b502f3ec2","status":"SUCCESS","file_name":"DS2API_HISTORY.txt","from_share":false,"file_size":732,"model_kind":"NORMAL","token_usage":145,"error_code":null,"inserted_at":1777485076.42,"updated_at":1777485076.42,"signed_path":"/file?file_id=9c8ae986-75f7-4611-9956-5e1b502f3ec2&state=a1REa2AdO8JmDuxMFiUTPJfpiyY4ie2weyUpYxfvEOrk5lxUCZifpRw9toZAEzn3DAjkgbR6blgZf41KLkHBKwwrcYTIjfxTRKijDqjEfguis03yddpuVrii6keG4%2BXIlcLAsyZG3qcGhfTGVZhsr%2BRl17J%2BcnT9roslhxBcEy4rthFJVMWUI%2BSHjuo2gLEUDfvMfULQ1gSLVGtr%2Fpq%2FcNPCPSxZapIQv04ZVmJLcdbzRkz%2Bb%2BxM5RWUIPujp%2B3ke1WDa3%2B6S4pP0Pv%2BAJ0MFUjQsloUwO4AsJ8YhGBFWg8Ehe1b2yt1N%2Fi%2BIjLRPt5xiNmALcJJXIY%3D","is_image":false,"audit_result":null}}}
+﻿{"code":0,"msg":"","data":{"biz_code":0,"biz_msg":"","biz_data":{"id":"file-9c8ae986-75f7-4611-9956-5e1b502f3ec2","status":"SUCCESS","file_name":"chat_context.txt","from_share":false,"file_size":732,"model_kind":"NORMAL","token_usage":145,"error_code":null,"inserted_at":1777485076.42,"updated_at":1777485076.42,"signed_path":"/file?file_id=9c8ae986-75f7-4611-9956-5e1b502f3ec2&state=a1REa2AdO8JmDuxMFiUTPJfpiyY4ie2weyUpYxfvEOrk5lxUCZifpRw9toZAEzn3DAjkgbR6blgZf41KLkHBKwwrcYTIjfxTRKijDqjEfguis03yddpuVrii6keG4%2BXIlcLAsyZG3qcGhfTGVZhsr%2BRl17J%2BcnT9roslhxBcEy4rthFJVMWUI%2BSHjuo2gLEUDfvMfULQ1gSLVGtr%2Fpq%2FcNPCPSxZapIQv04ZVmJLcdbzRkz%2Bb%2BxM5RWUIPujp%2B3ke1WDa3%2B6S4pP0Pv%2BAJ0MFUjQsloUwO4AsJ8YhGBFWg8Ehe1b2yt1N%2Fi%2BIjLRPt5xiNmALcJJXIY%3D","is_image":false,"audit_result":null}}}
 event: ready
 data: {"request_message_id":1,"response_message_id":2,"model_type":"expert"}
 
 event: update_session
 data: {"updated_at":1777485078.551796}
 
-data: {"v":{"response":{"message_id":2,"parent_id":1,"model":"","role":"ASSISTANT","thinking_enabled":true,"ban_edit":false,"ban_regenerate":false,"status":"WIP","incomplete_message":null,"accumulated_token_usage":0,"feedback":null,"inserted_at":1777485078.542825,"search_enabled":false,"fragments":[{"id":2,"type":"THINK","content":"我们","elapsed_secs":null,"references":[],"stage_id":1}],"conversation_mode":"DEFAULT","has_pending_fragment":false,"auto_continue":false}}}
+data: {"v":{"response":{"message_id":2,"parent_id":1,"model":"","role":"ASSISTANT","thinking_enabled":true,"ban_edit":false,"ban_regenerate":false,"status":"WIP","incomplete_message":null,"accumulated_token_usage":0,"feedback":null,"inserted_at":1777485078.542825,"search_enabled":false,"fragments":[{"id":2,"type":"THINK","content":"鎴戜滑","elapsed_secs":null,"references":[],"stage_id":1}],"conversation_mode":"DEFAULT","has_pending_fragment":false,"auto_continue":false}}}
 
-data: {"p":"response/fragments/-1/content","o":"APPEND","v":"被"}
+data: {"p":"response/fragments/-1/content","o":"APPEND","v":"琚?}
 
-data: {"v":"要求"}
+data: {"v":"瑕佹眰"}
 
-data: {"v":"写"}
+data: {"v":"鍐?}
 
-data: {"v":"一篇"}
+data: {"v":"涓€绡?}
 
 data: {"v":"120"}
 
 data: {"v":"0"}
 
-data: {"v":"字"}
+data: {"v":"瀛?}
 
-data: {"v":"的中"}
+data: {"v":"鐨勪腑"}
 
-data: {"v":"文"}
+data: {"v":"鏂?}
 
-data: {"v":"说明"}
+data: {"v":"璇存槑"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"比较"}
+data: {"v":"姣旇緝"}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"与"}
+data: {"v":"涓?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"在"}
+data: {"v":"鍦?}
 
 data: {"v":"AI"}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"输出"}
+data: {"v":"杈撳嚭"}
 
-data: {"v":"中的"}
+data: {"v":"涓殑"}
 
-data: {"v":"可靠性"}
+data: {"v":"鍙潬鎬?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"线"}
+data: {"v":"绾?}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"负载"}
+data: {"v":"璐熻浇"}
 
-data: {"v":"均衡"}
+data: {"v":"鍧囪　"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"兼容"}
+data: {"v":"鍏煎"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"成本和"}
+data: {"v":"鎴愭湰鍜?}
 
-data: {"v":"可"}
+data: {"v":"鍙?}
 
-data: {"v":"观测"}
+data: {"v":"瑙傛祴"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"给出"}
+data: {"v":"缁欏嚭"}
 
-data: {"v":"分层"}
+data: {"v":"鍒嗗眰"}
 
-data: {"v":"架构"}
+data: {"v":"鏋舵瀯"}
 
-data: {"v":"建议"}
+data: {"v":"寤鸿"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"思考"}
+data: {"v":"鎬濊€?}
 
-data: {"v":"过程"}
+data: {"v":"杩囩▼"}
 
-data: {"v":"要求"}
+data: {"v":"瑕佹眰"}
 
-data: {"v":"详尽"}
+data: {"v":"璇﹀敖"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
-data: {"v":"最终"}
+data: {"v":"鏈€缁?}
 
-data: {"v":"输出"}
+data: {"v":"杈撳嚭"}
 
-data: {"v":"是"}
+data: {"v":"鏄?}
 
-data: {"v":"给"}
+data: {"v":"缁?}
 
-data: {"v":"用户的"}
+data: {"v":"鐢ㄦ埛鐨?}
 
-data: {"v":"直接"}
+data: {"v":"鐩存帴"}
 
-data: {"v":"回答"}
+data: {"v":"鍥炵瓟"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"助手"}
+data: {"v":"鍔╂墜"}
 
-data: {"v":"应该"}
+data: {"v":"搴旇"}
 
-data: {"v":"输出"}
+data: {"v":"杈撳嚭"}
 
-data: {"v":"一篇"}
+data: {"v":"涓€绡?}
 
-data: {"v":"说明"}
+data: {"v":"璇存槑"}
 
-data: {"v":"文章"}
+data: {"v":"鏂囩珷"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"包含"}
+data: {"v":"鍖呭惈"}
 
-data: {"v":"这些"}
+data: {"v":"杩欎簺"}
 
-data: {"v":"方面的"}
+data: {"v":"鏂归潰鐨?}
 
-data: {"v":"比较"}
+data: {"v":"姣旇緝"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"以及"}
+data: {"v":"浠ュ強"}
 
-data: {"v":"分层"}
+data: {"v":"鍒嗗眰"}
 
-data: {"v":"架构"}
+data: {"v":"鏋舵瀯"}
 
-data: {"v":"建议"}
+data: {"v":"寤鸿"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"注意"}
+data: {"v":"娉ㄦ剰"}
 
-data: {"v":"字数"}
+data: {"v":"瀛楁暟"}
 
-data: {"v":"要求"}
+data: {"v":"瑕佹眰"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"120"}
 
 data: {"v":"0"}
 
-data: {"v":"字"}
+data: {"v":"瀛?}
 
-data: {"v":"左右"}
+data: {"v":"宸﹀彸"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"可以"}
+data: {"v":"鍙互"}
 
-data: {"v":"起草"}
+data: {"v":"璧疯崏"}
 
-data: {"v":"内容"}
+data: {"v":"鍐呭"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
-data: {"v":"首先"}
+data: {"v":"棣栧厛"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"理解"}
+data: {"v":"鐞嗚В"}
 
-data: {"v":"两种"}
+data: {"v":"涓ょ"}
 
-data: {"v":"技术"}
+data: {"v":"鎶€鏈?}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
 data: {"v":"Server"}
 
@@ -219,23 +219,23 @@ data: {"v":"ent"}
 
 data: {"v":" Events"}
 
-data: {"v":"）"}
+data: {"v":"锛?}
 
-data: {"v":"是基于"}
+data: {"v":"鏄熀浜?}
 
 data: {"v":"HTTP"}
 
-data: {"v":"的单"}
+data: {"v":"鐨勫崟"}
 
-data: {"v":"向"}
+data: {"v":"鍚?}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"通过"}
+data: {"v":"閫氳繃"}
 
 data: {"v":"Event"}
 
@@ -243,177 +243,177 @@ data: {"v":"Source"}
 
 data: {"v":" API"}
 
-data: {"v":"接收"}
+data: {"v":"鎺ユ敹"}
 
-data: {"v":"数据"}
+data: {"v":"鏁版嵁"}
 
-data: {"v":"；"}
+data: {"v":"锛?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"是全"}
+data: {"v":"鏄叏"}
 
-data: {"v":"双"}
+data: {"v":"鍙?}
 
-data: {"v":"工"}
+data: {"v":"宸?}
 
-data: {"v":"通信"}
+data: {"v":"閫氫俊"}
 
-data: {"v":"协议"}
+data: {"v":"鍗忚"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"在"}
+data: {"v":"鍦?}
 
 data: {"v":"AI"}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"输出"}
+data: {"v":"杈撳嚭"}
 
-data: {"v":"场景"}
+data: {"v":"鍦烘櫙"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"通常"}
+data: {"v":"閫氬父"}
 
-data: {"v":"是由"}
+data: {"v":"鏄敱"}
 
-data: {"v":"服务器"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"向"}
+data: {"v":"鍚?}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"推送"}
+data: {"v":"鎺ㄩ€?}
 
-data: {"v":"生成的"}
+data: {"v":"鐢熸垚鐨?}
 
 data: {"v":"token"}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
-data: {"v":"结果"}
+data: {"v":"缁撴灉"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"只是"}
+data: {"v":"鍙槸"}
 
-data: {"v":"接收"}
+data: {"v":"鎺ユ敹"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"不需要"}
+data: {"v":"涓嶉渶瑕?}
 
-data: {"v":"发送"}
+data: {"v":"鍙戦€?}
 
-data: {"v":"太多"}
+data: {"v":"澶"}
 
-data: {"v":"数据"}
+data: {"v":"鏁版嵁"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"除了"}
+data: {"v":"闄や簡"}
 
-data: {"v":"初始"}
+data: {"v":"鍒濆"}
 
-data: {"v":"请求"}
+data: {"v":"璇锋眰"}
 
-data: {"v":"）。"}
+data: {"v":"锛夈€?}
 
-data: {"v":"所以"}
+data: {"v":"鎵€浠?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"似乎"}
+data: {"v":"浼间箮"}
 
-data: {"v":"更"}
+data: {"v":"鏇?}
 
-data: {"v":"自然"}
+data: {"v":"鑷劧"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"也可"}
+data: {"v":"涔熷彲"}
 
-data: {"v":"用"}
+data: {"v":"鐢?}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"比较"}
+data: {"v":"姣旇緝"}
 
-data: {"v":"可靠性"}
+data: {"v":"鍙潬鎬?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"线"}
+data: {"v":"绾?}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"负载"}
+data: {"v":"璐熻浇"}
 
-data: {"v":"均衡"}
+data: {"v":"鍧囪　"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"兼容"}
+data: {"v":"鍏煎"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"成本"}
+data: {"v":"鎴愭湰"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"可"}
+data: {"v":"鍙?}
 
-data: {"v":"观测"}
+data: {"v":"瑙傛祴"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"；"}
+data: {"v":"锛?}
 
-data: {"v":"再"}
+data: {"v":"鍐?}
 
-data: {"v":"给出"}
+data: {"v":"缁欏嚭"}
 
-data: {"v":"分层"}
+data: {"v":"鍒嗗眰"}
 
-data: {"v":"架构"}
+data: {"v":"鏋舵瀯"}
 
-data: {"v":"建议"}
+data: {"v":"寤鸿"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
-data: {"v":"分析"}
+data: {"v":"鍒嗘瀽"}
 
-data: {"v":"每"}
+data: {"v":"姣?}
 
-data: {"v":"一点"}
+data: {"v":"涓€鐐?}
 
-data: {"v":"：\n\n"}
+data: {"v":"锛歕n\n"}
 
 data: {"v":"1"}
 
@@ -421,35 +421,35 @@ data: {"v":"."}
 
 data: {"v":" "}
 
-data: {"v":"可靠性"}
+data: {"v":"鍙潬鎬?}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"基于"}
+data: {"v":"鍩轰簬"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"利用"}
+data: {"v":"鍒╃敤"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
-data: {"v":"自动"}
+data: {"v":"鑷姩"}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"机制"}
+data: {"v":"鏈哄埗"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
 data: {"v":"Event"}
 
@@ -457,15 +457,15 @@ data: {"v":"Source"}
 
 data: {"v":" API"}
 
-data: {"v":"会自动"}
+data: {"v":"浼氳嚜鍔?}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"发送"}
+data: {"v":"鍙戦€?}
 
 data: {"v":"Last"}
 
@@ -475,269 +475,269 @@ data: {"v":"Event"}
 
 data: {"v":"-ID"}
 
-data: {"v":"），"}
+data: {"v":"锛夛紝"}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
-data: {"v":"只有"}
+data: {"v":"鍙湁"}
 
-data: {"v":"单向"}
+data: {"v":"鍗曞悜"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"时"}
+data: {"v":"鏃?}
 
-data: {"v":"可能需要"}
+data: {"v":"鍙兘闇€瑕?}
 
-data: {"v":"重新"}
+data: {"v":"閲嶆柊"}
 
-data: {"v":"发送"}
+data: {"v":"鍙戦€?}
 
-data: {"v":"请求"}
+data: {"v":"璇锋眰"}
 
-data: {"v":"？"}
+data: {"v":"锛?}
 
-data: {"v":"如果"}
+data: {"v":"濡傛灉"}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"断开"}
+data: {"v":"鏂紑"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"会自动"}
+data: {"v":"浼氳嚜鍔?}
 
-data: {"v":"尝试"}
+data: {"v":"灏濊瘯"}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"可以"}
+data: {"v":"鍙互"}
 
-data: {"v":"发送"}
+data: {"v":"鍙戦€?}
 
-data: {"v":"上次"}
+data: {"v":"涓婃"}
 
-data: {"v":"接收"}
+data: {"v":"鎺ユ敹"}
 
-data: {"v":"的事件"}
-
-data: {"v":"ID"}
-
-data: {"v":"，"}
-
-data: {"v":"服务器"}
-
-data: {"v":"可以从"}
-
-data: {"v":"该"}
+data: {"v":"鐨勪簨浠?}
 
 data: {"v":"ID"}
 
-data: {"v":"后"}
+data: {"v":"锛?}
 
-data: {"v":"继续"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"发送"}
+data: {"v":"鍙互浠?}
 
-data: {"v":"。"}
-
-data: {"v":"但"}
-
-data: {"v":"需要"}
-
-data: {"v":"服务器"}
-
-data: {"v":"端"}
-
-data: {"v":"支持"}
-
-data: {"v":"从"}
-
-data: {"v":"某个"}
-
-data: {"v":"事件"}
+data: {"v":"璇?}
 
 data: {"v":"ID"}
 
-data: {"v":"恢复"}
+data: {"v":"鍚?}
 
-data: {"v":"，"}
+data: {"v":"缁х画"}
 
-data: {"v":"维护"}
+data: {"v":"鍙戦€?}
 
-data: {"v":"会话"}
+data: {"v":"銆?}
 
-data: {"v":"。"}
+data: {"v":"浣?}
+
+data: {"v":"闇€瑕?}
+
+data: {"v":"鏈嶅姟鍣?}
+
+data: {"v":"绔?}
+
+data: {"v":"鏀寔"}
+
+data: {"v":"浠?}
+
+data: {"v":"鏌愪釜"}
+
+data: {"v":"浜嬩欢"}
+
+data: {"v":"ID"}
+
+data: {"v":"鎭㈠"}
+
+data: {"v":"锛?}
+
+data: {"v":"缁存姢"}
+
+data: {"v":"浼氳瘽"}
+
+data: {"v":"銆?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"自己"}
+data: {"v":"鑷繁"}
 
-data: {"v":"实现"}
+data: {"v":"瀹炵幇"}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"逻辑"}
+data: {"v":"閫昏緫"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"比较"}
+data: {"v":"姣旇緝"}
 
-data: {"v":"灵活"}
+data: {"v":"鐏垫椿"}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
-data: {"v":"复杂"}
+data: {"v":"澶嶆潅"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"可靠性"}
+data: {"v":"鍙潬鎬?}
 
-data: {"v":"方面"}
+data: {"v":"鏂归潰"}
 
-data: {"v":"，"}
-
-data: {"v":"SS"}
-
-data: {"v":"E"}
-
-data: {"v":"因为有"}
-
-data: {"v":"标准"}
-
-data: {"v":"重"}
-
-data: {"v":"连"}
-
-data: {"v":"可能"}
-
-data: {"v":"更"}
-
-data: {"v":"简单"}
-
-data: {"v":"可靠"}
-
-data: {"v":"。"}
-
-data: {"v":"但"}
-
-data: {"v":"也要"}
-
-data: {"v":"考虑"}
-
-data: {"v":"网络"}
-
-data: {"v":"中断"}
-
-data: {"v":"后"}
-
-data: {"v":"消息"}
-
-data: {"v":"丢失"}
-
-data: {"v":"，"}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"的"}
+data: {"v":"鍥犱负鏈?}
 
-data: {"v":"自动"}
+data: {"v":"鏍囧噯"}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"和"}
+data: {"v":"鍙兘"}
 
-data: {"v":"事件"}
+data: {"v":"鏇?}
+
+data: {"v":"绠€鍗?}
+
+data: {"v":"鍙潬"}
+
+data: {"v":"銆?}
+
+data: {"v":"浣?}
+
+data: {"v":"涔熻"}
+
+data: {"v":"鑰冭檻"}
+
+data: {"v":"缃戠粶"}
+
+data: {"v":"涓柇"}
+
+data: {"v":"鍚?}
+
+data: {"v":"娑堟伅"}
+
+data: {"v":"涓㈠け"}
+
+data: {"v":"锛?}
+
+data: {"v":"SS"}
+
+data: {"v":"E"}
+
+data: {"v":"鐨?}
+
+data: {"v":"鑷姩"}
+
+data: {"v":"閲?}
+
+data: {"v":"杩?}
+
+data: {"v":"鍜?}
+
+data: {"v":"浜嬩欢"}
 
 data: {"v":"ID"}
 
-data: {"v":"可以"}
+data: {"v":"鍙互"}
 
-data: {"v":"做到"}
+data: {"v":"鍋氬埌"}
 
-data: {"v":"精确"}
+data: {"v":"绮剧‘"}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"如果"}
+data: {"v":"濡傛灉"}
 
-data: {"v":"服务器"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"记录"}
+data: {"v":"璁板綍"}
 
-data: {"v":"）。"}
+data: {"v":"锛夈€?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"可以"}
+data: {"v":"鍙互"}
 
-data: {"v":"双向"}
+data: {"v":"鍙屽悜"}
 
-data: {"v":"确认"}
+data: {"v":"纭"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"实现"}
+data: {"v":"瀹炵幇"}
 
-data: {"v":"更"}
+data: {"v":"鏇?}
 
-data: {"v":"可靠的"}
+data: {"v":"鍙潬鐨?}
 
-data: {"v":"传输"}
+data: {"v":"浼犺緭"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"如"}
+data: {"v":"濡?}
 
-data: {"v":"通过"}
+data: {"v":"閫氳繃"}
 
 data: {"v":"ACK"}
 
-data: {"v":"），"}
+data: {"v":"锛夛紝"}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"更多"}
+data: {"v":"鏇村"}
 
-data: {"v":"开发"}
+data: {"v":"寮€鍙?}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
 data: {"v":"2"}
 
@@ -745,39 +745,39 @@ data: {"v":"."}
 
 data: {"v":" "}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"线"}
+data: {"v":"绾?}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
 data: {"v":"Event"}
 
 data: {"v":"Source"}
 
-data: {"v":"有"}
+data: {"v":"鏈?}
 
-data: {"v":"内置"}
+data: {"v":"鍐呯疆"}
 
-data: {"v":"的重"}
+data: {"v":"鐨勯噸"}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"机制"}
+data: {"v":"鏈哄埗"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"可通过"}
+data: {"v":"鍙€氳繃"}
 
 data: {"v":"Last"}
 
@@ -787,181 +787,181 @@ data: {"v":"Event"}
 
 data: {"v":"-ID"}
 
-data: {"v":"实现"}
+data: {"v":"瀹炵幇"}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"点"}
+data: {"v":"鐐?}
 
-data: {"v":"续"}
+data: {"v":"缁?}
 
-data: {"v":"传"}
+data: {"v":"浼?}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"服务器"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"根据"}
+data: {"v":"鏍规嵁"}
 
-data: {"v":"该"}
+data: {"v":"璇?}
 
 data: {"v":"ID"}
 
-data: {"v":"缓存"}
+data: {"v":"缂撳瓨"}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"放"}
+data: {"v":"鏀?}
 
-data: {"v":"事件"}
+data: {"v":"浜嬩欢"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"这对于"}
+data: {"v":"杩欏浜?}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
 data: {"v":"AI"}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"很重要"}
+data: {"v":"寰堥噸瑕?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"因为"}
+data: {"v":"鍥犱负"}
 
-data: {"v":"一旦"}
+data: {"v":"涓€鏃?}
 
-data: {"v":"断开"}
+data: {"v":"鏂紑"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"可以"}
+data: {"v":"鍙互"}
 
-data: {"v":"继续"}
+data: {"v":"缁х画"}
 
-data: {"v":"接收"}
+data: {"v":"鎺ユ敹"}
 
-data: {"v":"后续"}
+data: {"v":"鍚庣画"}
 
 data: {"v":"token"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"而不"}
+data: {"v":"鑰屼笉"}
 
-data: {"v":"至于"}
+data: {"v":"鑷充簬"}
 
-data: {"v":"丢失"}
+data: {"v":"涓㈠け"}
 
-data: {"v":"中间"}
+data: {"v":"涓棿"}
 
-data: {"v":"部分"}
+data: {"v":"閮ㄥ垎"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"服务器"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"维护"}
+data: {"v":"缁存姢"}
 
-data: {"v":"事件"}
+data: {"v":"浜嬩欢"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"历史"}
+data: {"v":"鍘嗗彶"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"可能"}
+data: {"v":"鍙兘"}
 
-data: {"v":"消耗"}
+data: {"v":"娑堣€?}
 
-data: {"v":"内存"}
+data: {"v":"鍐呭瓨"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"自定义"}
+data: {"v":"鑷畾涔?}
 
-data: {"v":"心跳"}
+data: {"v":"蹇冭烦"}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"还要"}
+data: {"v":"杩樿"}
 
-data: {"v":"自己"}
+data: {"v":"鑷繁"}
 
-data: {"v":"设计"}
+data: {"v":"璁捐"}
 
-data: {"v":"消息"}
+data: {"v":"娑堟伅"}
 
 data: {"v":"ID"}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
-data: {"v":"确认"}
+data: {"v":"纭"}
 
-data: {"v":"机制"}
+data: {"v":"鏈哄埗"}
 
-data: {"v":"来"}
+data: {"v":"鏉?}
 
-data: {"v":"保证"}
+data: {"v":"淇濊瘉"}
 
-data: {"v":"不"}
+data: {"v":"涓?}
 
-data: {"v":"丢失"}
+data: {"v":"涓㈠け"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"所以"}
+data: {"v":"鎵€浠?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"线"}
+data: {"v":"绾?}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"更"}
+data: {"v":"鏇?}
 
-data: {"v":"标准化"}
+data: {"v":"鏍囧噯鍖?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"易于"}
+data: {"v":"鏄撲簬"}
 
-data: {"v":"实现"}
+data: {"v":"瀹炵幇"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
 data: {"v":"3"}
 
@@ -969,101 +969,101 @@ data: {"v":"."}
 
 data: {"v":" "}
 
-data: {"v":"负载"}
+data: {"v":"璐熻浇"}
 
-data: {"v":"均衡"}
+data: {"v":"鍧囪　"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"基于"}
+data: {"v":"鍩轰簬"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"长"}
+data: {"v":"闀?}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"可以通过"}
+data: {"v":"鍙互閫氳繃"}
 
-data: {"v":"标准"}
+data: {"v":"鏍囧噯"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"负载"}
+data: {"v":"璐熻浇"}
 
-data: {"v":"均衡"}
+data: {"v":"鍧囪　"}
 
-data: {"v":"器"}
+data: {"v":"鍣?}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"如"}
+data: {"v":"濡?}
 
 data: {"v":"N"}
 
 data: {"v":"ginx"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
 data: {"v":"HA"}
 
 data: {"v":"Proxy"}
 
-data: {"v":"）"}
+data: {"v":"锛?}
 
-data: {"v":"分发"}
+data: {"v":"鍒嗗彂"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
-data: {"v":"长"}
+data: {"v":"闀?}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"可能"}
+data: {"v":"鍙兘"}
 
-data: {"v":"占用"}
+data: {"v":"鍗犵敤"}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"数"}
+data: {"v":"鏁?}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"由于"}
+data: {"v":"鐢变簬"}
 
-data: {"v":"是"}
+data: {"v":"鏄?}
 
-data: {"v":"单向"}
+data: {"v":"鍗曞悜"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"负载"}
+data: {"v":"璐熻浇"}
 
-data: {"v":"均衡"}
+data: {"v":"鍧囪　"}
 
-data: {"v":"器"}
+data: {"v":"鍣?}
 
-data: {"v":"配置"}
+data: {"v":"閰嶇疆"}
 
-data: {"v":"相对"}
+data: {"v":"鐩稿"}
 
-data: {"v":"简单"}
+data: {"v":"绠€鍗?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"只要"}
+data: {"v":"鍙"}
 
-data: {"v":"支持"}
+data: {"v":"鏀寔"}
 
 data: {"v":"HTTP"}
 
@@ -1075,117 +1075,117 @@ data: {"v":"."}
 
 data: {"v":"1"}
 
-data: {"v":"长"}
+data: {"v":"闀?}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
-data: {"v":"分"}
+data: {"v":"鍒?}
 
-data: {"v":"块"}
+data: {"v":"鍧?}
 
-data: {"v":"传输"}
+data: {"v":"浼犺緭"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
-data: {"v":"如果有"}
+data: {"v":"濡傛灉鏈?}
 
-data: {"v":"反向"}
+data: {"v":"鍙嶅悜"}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"可能需要"}
+data: {"v":"鍙兘闇€瑕?}
 
-data: {"v":"配置"}
+data: {"v":"閰嶇疆"}
 
-data: {"v":"超"}
+data: {"v":"瓒?}
 
-data: {"v":"时"}
+data: {"v":"鏃?}
 
-data: {"v":"。"}
-
-data: {"v":"Web"}
-
-data: {"v":"Socket"}
-
-data: {"v":"则是"}
-
-data: {"v":"升级"}
-
-data: {"v":"协议"}
-
-data: {"v":"，"}
-
-data: {"v":"需要"}
-
-data: {"v":"负载"}
-
-data: {"v":"均衡"}
-
-data: {"v":"器"}
-
-data: {"v":"支持"}
+data: {"v":"銆?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"代理"}
+data: {"v":"鍒欐槸"}
 
-data: {"v":"，"}
+data: {"v":"鍗囩骇"}
 
-data: {"v":"需要"}
+data: {"v":"鍗忚"}
+
+data: {"v":"锛?}
+
+data: {"v":"闇€瑕?}
+
+data: {"v":"璐熻浇"}
+
+data: {"v":"鍧囪　"}
+
+data: {"v":"鍣?}
+
+data: {"v":"鏀寔"}
+
+data: {"v":"Web"}
+
+data: {"v":"Socket"}
+
+data: {"v":"浠ｇ悊"}
+
+data: {"v":"锛?}
+
+data: {"v":"闇€瑕?}
 
 data: {"v":"Up"}
 
 data: {"v":"grade"}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
 data: {"v":"Connection"}
 
-data: {"v":"头"}
+data: {"v":"澶?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"并且"}
+data: {"v":"骞朵笖"}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"保持"}
+data: {"v":"淇濇寔"}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"同样"}
+data: {"v":"鍚屾牱"}
 
-data: {"v":"占用"}
+data: {"v":"鍗犵敤"}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"两者的"}
+data: {"v":"涓よ€呯殑"}
 
-data: {"v":"区别"}
+data: {"v":"鍖哄埆"}
 
-data: {"v":"主要在"}
+data: {"v":"涓昏鍦?}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"兼容"}
+data: {"v":"鍏煎"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"上"}
+data: {"v":"涓?}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
 data: {"v":"4"}
 
@@ -1193,99 +1193,99 @@ data: {"v":"."}
 
 data: {"v":" "}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"兼容"}
+data: {"v":"鍏煎"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"使用"}
+data: {"v":"浣跨敤"}
 
-data: {"v":"普通"}
-
-data: {"v":"HTTP"}
-
-data: {"v":"，"}
-
-data: {"v":"大部分"}
+data: {"v":"鏅€?}
 
 data: {"v":"HTTP"}
 
-data: {"v":"代理"}
+data: {"v":"锛?}
 
-data: {"v":"和"}
+data: {"v":"澶ч儴鍒?}
+
+data: {"v":"HTTP"}
+
+data: {"v":"浠ｇ悊"}
+
+data: {"v":"鍜?}
 
 data: {"v":"CD"}
 
 data: {"v":"N"}
 
-data: {"v":"都能"}
+data: {"v":"閮借兘"}
 
-data: {"v":"透"}
+data: {"v":"閫?}
 
-data: {"v":"传"}
+data: {"v":"浼?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"只要"}
+data: {"v":"鍙"}
 
-data: {"v":"支持"}
+data: {"v":"鏀寔"}
 
-data: {"v":"分"}
+data: {"v":"鍒?}
 
-data: {"v":"块"}
+data: {"v":"鍧?}
 
-data: {"v":"传输"}
+data: {"v":"浼犺緭"}
 
-data: {"v":"编码"}
+data: {"v":"缂栫爜"}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
-data: {"v":"不过"}
+data: {"v":"涓嶈繃"}
 
-data: {"v":"度"}
+data: {"v":"搴?}
 
-data: {"v":"缓冲"}
+data: {"v":"缂撳啿"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"某些"}
+data: {"v":"鏌愪簺"}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"可能会"}
+data: {"v":"鍙兘浼?}
 
-data: {"v":"缓冲"}
+data: {"v":"缂撳啿"}
 
-data: {"v":"响应"}
+data: {"v":"鍝嶅簲"}
 
-data: {"v":"体"}
+data: {"v":"浣?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"影响"}
+data: {"v":"褰卞搷"}
 
-data: {"v":"实时"}
+data: {"v":"瀹炴椂"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"可以通过"}
+data: {"v":"鍙互閫氳繃"}
 
-data: {"v":"设置"}
+data: {"v":"璁剧疆"}
 
-data: {"v":"响应"}
+data: {"v":"鍝嶅簲"}
 
-data: {"v":"头"}
+data: {"v":"澶?}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
 data: {"v":"X"}
 
@@ -1305,111 +1305,111 @@ data: {"v":":"}
 
 data: {"v":" no"}
 
-data: {"v":"）"}
+data: {"v":"锛?}
 
-data: {"v":"禁用"}
+data: {"v":"绂佺敤"}
 
-data: {"v":"缓冲"}
+data: {"v":"缂撳啿"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
-data: {"v":"总体"}
+data: {"v":"鎬讳綋"}
 
-data: {"v":"兼容"}
+data: {"v":"鍏煎"}
 
-data: {"v":"性好"}
+data: {"v":"鎬уソ"}
 
-data: {"v":"。"}
-
-data: {"v":"Web"}
-
-data: {"v":"Socket"}
-
-data: {"v":"需要"}
-
-data: {"v":"代理"}
-
-data: {"v":"明确"}
-
-data: {"v":"支持"}
+data: {"v":"銆?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"协议"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"升级"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"，"}
+data: {"v":"鏄庣‘"}
 
-data: {"v":"否则"}
+data: {"v":"鏀寔"}
 
-data: {"v":"可能"}
+data: {"v":"Web"}
 
-data: {"v":"被"}
+data: {"v":"Socket"}
 
-data: {"v":"拒绝"}
+data: {"v":"鍗忚"}
 
-data: {"v":"。"}
+data: {"v":"鍗囩骇"}
 
-data: {"v":"许多"}
+data: {"v":"锛?}
 
-data: {"v":"老"}
+data: {"v":"鍚﹀垯"}
 
-data: {"v":"代理"}
+data: {"v":"鍙兘"}
 
-data: {"v":"或"}
+data: {"v":"琚?}
+
+data: {"v":"鎷掔粷"}
+
+data: {"v":"銆?}
+
+data: {"v":"璁稿"}
+
+data: {"v":"鑰?}
+
+data: {"v":"浠ｇ悊"}
+
+data: {"v":"鎴?}
 
 data: {"v":"CD"}
 
 data: {"v":"N"}
 
-data: {"v":"不支持"}
+data: {"v":"涓嶆敮鎸?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"专门"}
+data: {"v":"涓撻棬"}
 
-data: {"v":"配置"}
+data: {"v":"閰嶇疆"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"因此在"}
+data: {"v":"鍥犳鍦?}
 
-data: {"v":"复杂"}
+data: {"v":"澶嶆潅"}
 
-data: {"v":"网络"}
+data: {"v":"缃戠粶"}
 
-data: {"v":"环境下"}
+data: {"v":"鐜涓?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"兼容"}
+data: {"v":"鍏煎"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"明显"}
+data: {"v":"鏄庢樉"}
 
-data: {"v":"优于"}
+data: {"v":"浼樹簬"}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
 data: {"v":"5"}
 
@@ -1417,73 +1417,73 @@ data: {"v":"."}
 
 data: {"v":" "}
 
-data: {"v":"成本"}
+data: {"v":"鎴愭湰"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"更"}
+data: {"v":"鏇?}
 
-data: {"v":"简单"}
+data: {"v":"绠€鍗?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"开发"}
+data: {"v":"寮€鍙?}
 
-data: {"v":"成本"}
+data: {"v":"鎴愭湰"}
 
-data: {"v":"低"}
+data: {"v":"浣?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"使用"}
+data: {"v":"浣跨敤"}
 
-data: {"v":"标准"}
+data: {"v":"鏍囧噯"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"无需"}
+data: {"v":"鏃犻渶"}
 
-data: {"v":"特殊"}
+data: {"v":"鐗规畩"}
 
-data: {"v":"库"}
+data: {"v":"搴?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"使用"}
+data: {"v":"浣跨敤"}
 
-data: {"v":"浏览器"}
+data: {"v":"娴忚鍣?}
 
-data: {"v":"内置"}
+data: {"v":"鍐呯疆"}
 
 data: {"v":"Event"}
 
 data: {"v":"Source"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"服务"}
+data: {"v":"鏈嶅姟"}
 
-data: {"v":"端"}
+data: {"v":"绔?}
 
-data: {"v":"实现"}
+data: {"v":"瀹炵幇"}
 
-data: {"v":"也"}
+data: {"v":"涔?}
 
-data: {"v":"简单"}
+data: {"v":"绠€鍗?}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"如"}
+data: {"v":"濡?}
 
-data: {"v":"设置"}
+data: {"v":"璁剧疆"}
 
 data: {"v":"text"}
 
@@ -1493,97 +1493,97 @@ data: {"v":"event"}
 
 data: {"v":"-stream"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"写"}
+data: {"v":"鍐?}
 
-data: {"v":"数据"}
+data: {"v":"鏁版嵁"}
 
-data: {"v":"）。"}
-
-data: {"v":"Web"}
-
-data: {"v":"Socket"}
-
-data: {"v":"需要使用"}
+data: {"v":"锛夈€?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"库"}
+data: {"v":"闇€瑕佷娇鐢?}
 
-data: {"v":"，"}
+data: {"v":"Web"}
 
-data: {"v":"管理"}
+data: {"v":"Socket"}
 
-data: {"v":"心跳"}
+data: {"v":"搴?}
 
-data: {"v":"、"}
+data: {"v":"锛?}
 
-data: {"v":"重"}
+data: {"v":"绠＄悊"}
 
-data: {"v":"连"}
+data: {"v":"蹇冭烦"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"消息"}
+data: {"v":"閲?}
 
-data: {"v":"序列"}
+data: {"v":"杩?}
 
-data: {"v":"化"}
+data: {"v":"銆?}
 
-data: {"v":"等"}
+data: {"v":"娑堟伅"}
 
-data: {"v":"，"}
+data: {"v":"搴忓垪"}
 
-data: {"v":"开发"}
+data: {"v":"鍖?}
 
-data: {"v":"成本"}
+data: {"v":"绛?}
 
-data: {"v":"较高"}
+data: {"v":"锛?}
 
-data: {"v":"。"}
+data: {"v":"寮€鍙?}
 
-data: {"v":"资源"}
+data: {"v":"鎴愭湰"}
 
-data: {"v":"消耗"}
+data: {"v":"杈冮珮"}
 
-data: {"v":"方面"}
+data: {"v":"銆?}
 
-data: {"v":"，"}
+data: {"v":"璧勬簮"}
 
-data: {"v":"两者"}
+data: {"v":"娑堣€?}
 
-data: {"v":"都是"}
+data: {"v":"鏂归潰"}
 
-data: {"v":"长"}
+data: {"v":"锛?}
 
-data: {"v":"连接"}
+data: {"v":"涓よ€?}
 
-data: {"v":"，"}
+data: {"v":"閮芥槸"}
 
-data: {"v":"占用"}
+data: {"v":"闀?}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"数"}
+data: {"v":"锛?}
 
-data: {"v":"相近"}
+data: {"v":"鍗犵敤"}
 
-data: {"v":"。"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"但"}
+data: {"v":"鏁?}
+
+data: {"v":"鐩歌繎"}
+
+data: {"v":"銆?}
+
+data: {"v":"浣?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"可以"}
+data: {"v":"鍙互"}
 
-data: {"v":"更容易"}
+data: {"v":"鏇村鏄?}
 
-data: {"v":"利用"}
+data: {"v":"鍒╃敤"}
 
 data: {"v":"HTTP"}
 
@@ -1591,23 +1591,23 @@ data: {"v":"/"}
 
 data: {"v":"2"}
 
-data: {"v":"的多"}
+data: {"v":"鐨勫"}
 
-data: {"v":"路"}
+data: {"v":"璺?}
 
-data: {"v":"复用"}
+data: {"v":"澶嶇敤"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"虽然"}
+data: {"v":"铏界劧"}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"规范"}
+data: {"v":"瑙勮寖"}
 
-data: {"v":"基于"}
+data: {"v":"鍩轰簬"}
 
 data: {"v":"HTTP"}
 
@@ -1619,9 +1619,9 @@ data: {"v":"."}
 
 data: {"v":"1"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"但在"}
+data: {"v":"浣嗗湪"}
 
 data: {"v":"HTTP"}
 
@@ -1629,15 +1629,15 @@ data: {"v":"/"}
 
 data: {"v":"2"}
 
-data: {"v":"下"}
+data: {"v":"涓?}
 
-data: {"v":"也可"}
+data: {"v":"涔熷彲"}
 
-data: {"v":"使用"}
+data: {"v":"浣跨敤"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
 data: {"v":"Event"}
 
@@ -1645,21 +1645,21 @@ data: {"v":"Source"}
 
 data: {"v":" API"}
 
-data: {"v":"可能"}
+data: {"v":"鍙兘"}
 
-data: {"v":"有限"}
+data: {"v":"鏈夐檺"}
 
-data: {"v":"制"}
+data: {"v":"鍒?}
 
-data: {"v":"），"}
+data: {"v":"锛夛紝"}
 
-data: {"v":"而"}
+data: {"v":"鑰?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"在"}
+data: {"v":"鍦?}
 
 data: {"v":"HTTP"}
 
@@ -1667,9 +1667,9 @@ data: {"v":"/"}
 
 data: {"v":"2"}
 
-data: {"v":"下"}
+data: {"v":"涓?}
 
-data: {"v":"可通过"}
+data: {"v":"鍙€氳繃"}
 
 data: {"v":"Web"}
 
@@ -1683,19 +1683,19 @@ data: {"v":"/"}
 
 data: {"v":"2"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"整体"}
+data: {"v":"鏁翠綋"}
 
-data: {"v":"成本"}
+data: {"v":"鎴愭湰"}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"更低"}
+data: {"v":"鏇翠綆"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
 data: {"v":"6"}
 
@@ -1703,747 +1703,747 @@ data: {"v":"."}
 
 data: {"v":" "}
 
-data: {"v":"可"}
+data: {"v":"鍙?}
 
-data: {"v":"观测"}
+data: {"v":"瑙傛祴"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"通过"}
+data: {"v":"閫氳繃"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"可以使用"}
+data: {"v":"鍙互浣跨敤"}
 
-data: {"v":"标准"}
+data: {"v":"鏍囧噯"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"日志"}
+data: {"v":"鏃ュ織"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"监控"}
+data: {"v":"鐩戞帶"}
 
-data: {"v":"工具"}
+data: {"v":"宸ュ叿"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"分布式"}
+data: {"v":"鍒嗗竷寮?}
 
-data: {"v":"追踪"}
+data: {"v":"杩借釜"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"如"}
+data: {"v":"濡?}
 
-data: {"v":"通过"}
+data: {"v":"閫氳繃"}
 
-data: {"v":"头"}
+data: {"v":"澶?}
 
-data: {"v":"传递"}
+data: {"v":"浼犻€?}
 
 data: {"v":"trace"}
 
 data: {"v":" id"}
 
-data: {"v":"）。"}
+data: {"v":"锛夈€?}
 
-data: {"v":"因为"}
+data: {"v":"鍥犱负"}
 
-data: {"v":"走"}
+data: {"v":"璧?}
 
 data: {"v":"HTTP"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"可以"}
+data: {"v":"鍙互"}
 
-data: {"v":"轻松"}
+data: {"v":"杞绘澗"}
 
-data: {"v":"集成"}
+data: {"v":"闆嗘垚"}
 
-data: {"v":"现有的"}
+data: {"v":"鐜版湁鐨?}
 
 data: {"v":"API"}
 
-data: {"v":"网关"}
+data: {"v":"缃戝叧"}
 
-data: {"v":"监控"}
+data: {"v":"鐩戞帶"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"则需要"}
+data: {"v":"鍒欓渶瑕?}
 
-data: {"v":"专门的"}
+data: {"v":"涓撻棬鐨?}
 
-data: {"v":"监控"}
+data: {"v":"鐩戞帶"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"因为"}
+data: {"v":"鍥犱负"}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"建立"}
+data: {"v":"寤虹珛"}
 
-data: {"v":"后"}
+data: {"v":"鍚?}
 
-data: {"v":"消息"}
+data: {"v":"娑堟伅"}
 
-data: {"v":"是"}
+data: {"v":"鏄?}
 
-data: {"v":"二进制"}
+data: {"v":"浜岃繘鍒?}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
-data: {"v":"文本"}
+data: {"v":"鏂囨湰"}
 
-data: {"v":"帧"}
+data: {"v":"甯?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"应用"}
+data: {"v":"搴旂敤"}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"日志"}
+data: {"v":"鏃ュ織"}
 
-data: {"v":"记录"}
+data: {"v":"璁板綍"}
 
-data: {"v":"消息"}
+data: {"v":"娑堟伅"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"不易"}
+data: {"v":"涓嶆槗"}
 
-data: {"v":"用"}
+data: {"v":"鐢?}
 
-data: {"v":"标准"}
+data: {"v":"鏍囧噯"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"中间"}
+data: {"v":"涓棿"}
 
-data: {"v":"件"}
+data: {"v":"浠?}
 
-data: {"v":"观测"}
+data: {"v":"瑙傛祴"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"一些"}
+data: {"v":"涓€浜?}
 
 data: {"v":"API"}
 
-data: {"v":"网关"}
+data: {"v":"缃戝叧"}
 
-data: {"v":"支持"}
+data: {"v":"鏀寔"}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
-data: {"v":"不如"}
+data: {"v":"涓嶅"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"成熟"}
+data: {"v":"鎴愮啛"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"所以"}
-
-data: {"v":"SS"}
-
-data: {"v":"E"}
-
-data: {"v":"的可"}
-
-data: {"v":"观测"}
-
-data: {"v":"性"}
-
-data: {"v":"更好"}
-
-data: {"v":"。\n\n"}
-
-data: {"v":"总结"}
-
-data: {"v":"："}
+data: {"v":"鎵€浠?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"在"}
+data: {"v":"鐨勫彲"}
+
+data: {"v":"瑙傛祴"}
+
+data: {"v":"鎬?}
+
+data: {"v":"鏇村ソ"}
+
+data: {"v":"銆俓n\n"}
+
+data: {"v":"鎬荤粨"}
+
+data: {"v":"锛?}
+
+data: {"v":"SS"}
+
+data: {"v":"E"}
+
+data: {"v":"鍦?}
 
 data: {"v":"AI"}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"输出"}
+data: {"v":"杈撳嚭"}
 
-data: {"v":"场景"}
+data: {"v":"鍦烘櫙"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"服务器"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"到"}
+data: {"v":"鍒?}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"单向"}
+data: {"v":"鍗曞悜"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"）"}
+data: {"v":"锛?}
 
-data: {"v":"更适合"}
+data: {"v":"鏇撮€傚悎"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"因其"}
+data: {"v":"鍥犲叾"}
 
-data: {"v":"简单"}
+data: {"v":"绠€鍗?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"可靠"}
+data: {"v":"鍙潬"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"易"}
+data: {"v":"鏄?}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"兼容"}
+data: {"v":"鍏煎"}
 
-data: {"v":"性好"}
+data: {"v":"鎬уソ"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"成本"}
+data: {"v":"鎴愭湰"}
 
-data: {"v":"低"}
+data: {"v":"浣?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"可"}
+data: {"v":"鍙?}
 
-data: {"v":"观测"}
+data: {"v":"瑙傛祴"}
 
-data: {"v":"性强"}
+data: {"v":"鎬у己"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"更适合"}
+data: {"v":"鏇撮€傚悎"}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"双向"}
+data: {"v":"鍙屽悜"}
 
-data: {"v":"交互"}
+data: {"v":"浜や簰"}
 
-data: {"v":"的场景"}
+data: {"v":"鐨勫満鏅?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"如"}
+data: {"v":"濡?}
 
-data: {"v":"实时"}
+data: {"v":"瀹炴椂"}
 
-data: {"v":"对话"}
+data: {"v":"瀵硅瘽"}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"可以"}
+data: {"v":"鍙互"}
 
-data: {"v":"中断"}
+data: {"v":"涓柇"}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
-data: {"v":"修改"}
+data: {"v":"淇敼"}
 
-data: {"v":"生成"}
+data: {"v":"鐢熸垚"}
 
-data: {"v":"参数"}
+data: {"v":"鍙傛暟"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
-data: {"v":"很多"}
+data: {"v":"寰堝"}
 
 data: {"v":"AI"}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"场景"}
+data: {"v":"鍦烘櫙"}
 
-data: {"v":"仅"}
+data: {"v":"浠?}
 
-data: {"v":"需"}
+data: {"v":"闇€"}
 
-data: {"v":"服务器"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"推送"}
+data: {"v":"鎺ㄩ€?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"足够"}
+data: {"v":"瓒冲"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
-data: {"v":"分层"}
+data: {"v":"鍒嗗眰"}
 
-data: {"v":"架构"}
+data: {"v":"鏋舵瀯"}
 
-data: {"v":"建议"}
+data: {"v":"寤鸿"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
-data: {"v":"可以"}
+data: {"v":"鍙互"}
 
-data: {"v":"设计"}
+data: {"v":"璁捐"}
 
-data: {"v":"一个"}
+data: {"v":"涓€涓?}
 
-data: {"v":"分层"}
+data: {"v":"鍒嗗眰"}
 
-data: {"v":"架构"}
+data: {"v":"鏋舵瀯"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"将"}
+data: {"v":"灏?}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"服务"}
+data: {"v":"鏈嶅姟"}
 
-data: {"v":"作为"}
+data: {"v":"浣滀负"}
 
-data: {"v":"核心"}
+data: {"v":"鏍稿績"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"上层"}
+data: {"v":"涓婂眰"}
 
-data: {"v":"加"}
+data: {"v":"鍔?}
 
-data: {"v":"一层"}
+data: {"v":"涓€灞?}
 
 data: {"v":"API"}
 
-data: {"v":"网关"}
+data: {"v":"缃戝叧"}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
 data: {"v":"stream"}
 
 data: {"v":"ing"}
 
-data: {"v":"服务"}
+data: {"v":"鏈嶅姟"}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"用于"}
+data: {"v":"鐢ㄤ簬"}
 
-data: {"v":"管理"}
+data: {"v":"绠＄悊"}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"认证"}
+data: {"v":"璁よ瘉"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"限"}
+data: {"v":"闄?}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"点"}
+data: {"v":"鐐?}
 
-data: {"v":"续"}
+data: {"v":"缁?}
 
-data: {"v":"传"}
+data: {"v":"浼?}
 
-data: {"v":"缓存"}
+data: {"v":"缂撳瓨"}
 
-data: {"v":"等"}
+data: {"v":"绛?}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"例如"}
+data: {"v":"渚嬪"}
 
-data: {"v":"：\n\n"}
+data: {"v":"锛歕n\n"}
 
 data: {"v":"-"}
 
 data: {"v":" "}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"Web"}
 
 data: {"v":"/"}
 
-data: {"v":"移动"}
+data: {"v":"绉诲姩"}
 
-data: {"v":"端"}
+data: {"v":"绔?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"使用"}
+data: {"v":"浣跨敤"}
 
 data: {"v":"Event"}
 
 data: {"v":"Source"}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"根据"}
+data: {"v":"鏍规嵁"}
 
-data: {"v":"场景"}
+data: {"v":"鍦烘櫙"}
 
-data: {"v":"）。\n"}
+data: {"v":"锛夈€俓n"}
 
 data: {"v":"-"}
 
 data: {"v":" "}
 
-data: {"v":"接入"}
+data: {"v":"鎺ュ叆"}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"API"}
 
-data: {"v":"网关"}
+data: {"v":"缃戝叧"}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
-data: {"v":"反向"}
+data: {"v":"鍙嶅悜"}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"如"}
+data: {"v":"濡?}
 
 data: {"v":"N"}
 
 data: {"v":"ginx"}
 
-data: {"v":"），"}
+data: {"v":"锛夛紝"}
 
-data: {"v":"负载"}
+data: {"v":"璐熻浇"}
 
-data: {"v":"均衡"}
+data: {"v":"鍧囪　"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
 data: {"v":"SSL"}
 
-data: {"v":"终止"}
+data: {"v":"缁堟"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"支持"}
-
-data: {"v":"SS"}
-
-data: {"v":"E"}
-
-data: {"v":"长"}
-
-data: {"v":"连接"}
-
-data: {"v":"配置"}
-
-data: {"v":"。\n"}
-
-data: {"v":"-"}
-
-data: {"v":" "}
-
-data: {"v":"流"}
-
-data: {"v":"式"}
-
-data: {"v":"服务"}
-
-data: {"v":"层"}
-
-data: {"v":"："}
-
-data: {"v":"负责"}
+data: {"v":"鏀寔"}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"连接"}
+data: {"v":"闀?}
 
-data: {"v":"管理"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"、"}
+data: {"v":"閰嶇疆"}
 
-data: {"v":"会话"}
-
-data: {"v":"管理"}
-
-data: {"v":"、"}
-
-data: {"v":"事件"}
-
-data: {"v":"缓存"}
-
-data: {"v":"（"}
-
-data: {"v":"用于"}
-
-data: {"v":"断"}
-
-data: {"v":"线"}
-
-data: {"v":"恢复"}
-
-data: {"v":"）、"}
-
-data: {"v":"消息"}
-
-data: {"v":"路由"}
-
-data: {"v":"等"}
-
-data: {"v":"。\n"}
+data: {"v":"銆俓n"}
 
 data: {"v":"-"}
 
 data: {"v":" "}
 
-data: {"v":"推理"}
+data: {"v":"娴?}
 
-data: {"v":"引擎"}
+data: {"v":"寮?}
 
-data: {"v":"层"}
+data: {"v":"鏈嶅姟"}
 
-data: {"v":"："}
+data: {"v":"灞?}
 
-data: {"v":"实际的"}
+data: {"v":"锛?}
+
+data: {"v":"璐熻矗"}
+
+data: {"v":"SS"}
+
+data: {"v":"E"}
+
+data: {"v":"杩炴帴"}
+
+data: {"v":"绠＄悊"}
+
+data: {"v":"銆?}
+
+data: {"v":"浼氳瘽"}
+
+data: {"v":"绠＄悊"}
+
+data: {"v":"銆?}
+
+data: {"v":"浜嬩欢"}
+
+data: {"v":"缂撳瓨"}
+
+data: {"v":"锛?}
+
+data: {"v":"鐢ㄤ簬"}
+
+data: {"v":"鏂?}
+
+data: {"v":"绾?}
+
+data: {"v":"鎭㈠"}
+
+data: {"v":"锛夈€?}
+
+data: {"v":"娑堟伅"}
+
+data: {"v":"璺敱"}
+
+data: {"v":"绛?}
+
+data: {"v":"銆俓n"}
+
+data: {"v":"-"}
+
+data: {"v":" "}
+
+data: {"v":"鎺ㄧ悊"}
+
+data: {"v":"寮曟搸"}
+
+data: {"v":"灞?}
+
+data: {"v":"锛?}
+
+data: {"v":"瀹為檯鐨?}
 
 data: {"v":"AI"}
 
-data: {"v":"模型"}
+data: {"v":"妯″瀷"}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"产生"}
-
-data: {"v":"token"}
-
-data: {"v":"流"}
-
-data: {"v":"，"}
-
-data: {"v":"通过"}
-
-data: {"v":"回调"}
-
-data: {"v":"或者"}
-
-data: {"v":"流"}
-
-data: {"v":"式"}
-
-data: {"v":"接口"}
-
-data: {"v":"将"}
+data: {"v":"浜х敓"}
 
 data: {"v":"token"}
 
-data: {"v":"推"}
+data: {"v":"娴?}
 
-data: {"v":"送到"}
+data: {"v":"锛?}
 
-data: {"v":"流"}
+data: {"v":"閫氳繃"}
 
-data: {"v":"式"}
+data: {"v":"鍥炶皟"}
 
-data: {"v":"服务"}
+data: {"v":"鎴栬€?}
 
-data: {"v":"层"}
+data: {"v":"娴?}
 
-data: {"v":"。\n"}
+data: {"v":"寮?}
+
+data: {"v":"鎺ュ彛"}
+
+data: {"v":"灏?}
+
+data: {"v":"token"}
+
+data: {"v":"鎺?}
+
+data: {"v":"閫佸埌"}
+
+data: {"v":"娴?}
+
+data: {"v":"寮?}
+
+data: {"v":"鏈嶅姟"}
+
+data: {"v":"灞?}
+
+data: {"v":"銆俓n"}
 
 data: {"v":"-"}
 
 data: {"v":" "}
 
-data: {"v":"可"}
+data: {"v":"鍙?}
 
-data: {"v":"观测"}
+data: {"v":"瑙傛祴"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
-data: {"v":"贯穿"}
+data: {"v":"璐┛"}
 
-data: {"v":"各"}
+data: {"v":"鍚?}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"使用"}
+data: {"v":"浣跨敤"}
 
-data: {"v":"结构化"}
+data: {"v":"缁撴瀯鍖?}
 
-data: {"v":"日志"}
+data: {"v":"鏃ュ織"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"链路"}
+data: {"v":"閾捐矾"}
 
-data: {"v":"追踪"}
+data: {"v":"杩借釜"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"指标"}
+data: {"v":"鎸囨爣"}
 
-data: {"v":"监控"}
+data: {"v":"鐩戞帶"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
-data: {"v":"建议"}
+data: {"v":"寤鸿"}
 
-data: {"v":"优先"}
+data: {"v":"浼樺厛"}
 
-data: {"v":"使用"}
+data: {"v":"浣跨敤"}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"作为"}
+data: {"v":"浣滀负"}
 
-data: {"v":"默认"}
+data: {"v":"榛樿"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"协议"}
+data: {"v":"鍗忚"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"只有在"}
+data: {"v":"鍙湁鍦?}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"主动"}
+data: {"v":"涓诲姩"}
 
-data: {"v":"发送"}
+data: {"v":"鍙戦€?}
 
-data: {"v":"控制"}
+data: {"v":"鎺у埗"}
 
-data: {"v":"指令"}
+data: {"v":"鎸囦护"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"如"}
+data: {"v":"濡?}
 
-data: {"v":"停止"}
+data: {"v":"鍋滄"}
 
-data: {"v":"生成"}
+data: {"v":"鐢熸垚"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"修改"}
+data: {"v":"淇敼"}
 
-data: {"v":"参数"}
+data: {"v":"鍙傛暟"}
 
-data: {"v":"）"}
+data: {"v":"锛?}
 
-data: {"v":"时才"}
+data: {"v":"鏃舵墠"}
 
-data: {"v":"考虑"}
+data: {"v":"鑰冭檻"}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"或者"}
+data: {"v":"鎴栬€?}
 
-data: {"v":"采用"}
+data: {"v":"閲囩敤"}
 
 data: {"v":"SS"}
 
@@ -2453,95 +2453,95 @@ data: {"v":" +"}
 
 data: {"v":" HTTP"}
 
-data: {"v":"请求"}
+data: {"v":"璇锋眰"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
-data: {"v":"混合"}
+data: {"v":"娣峰悎"}
 
-data: {"v":"模式"}
+data: {"v":"妯″紡"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"即"}
+data: {"v":"鍗?}
 
-data: {"v":"用"}
+data: {"v":"鐢?}
 
 data: {"v":"POST"}
 
-data: {"v":"请求"}
+data: {"v":"璇锋眰"}
 
-data: {"v":"开始"}
+data: {"v":"寮€濮?}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"用"}
+data: {"v":"鐢?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"接收"}
+data: {"v":"鎺ユ敹"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"用"}
+data: {"v":"鐢?}
 
-data: {"v":"另一个"}
+data: {"v":"鍙︿竴涓?}
 
 data: {"v":"HTTP"}
 
-data: {"v":"请求"}
+data: {"v":"璇锋眰"}
 
-data: {"v":"发送"}
+data: {"v":"鍙戦€?}
 
-data: {"v":"控制"}
+data: {"v":"鎺у埗"}
 
-data: {"v":"指令"}
+data: {"v":"鎸囦护"}
 
-data: {"v":"）。"}
+data: {"v":"锛夈€?}
 
-data: {"v":"这种"}
+data: {"v":"杩欑"}
 
-data: {"v":"架构"}
+data: {"v":"鏋舵瀯"}
 
-data: {"v":"清晰"}
+data: {"v":"娓呮櫚"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"各"}
+data: {"v":"鍚?}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"职责"}
+data: {"v":"鑱岃矗"}
 
-data: {"v":"分明"}
+data: {"v":"鍒嗘槑"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
-data: {"v":"现在"}
+data: {"v":"鐜板湪"}
 
-data: {"v":"组合"}
+data: {"v":"缁勫悎"}
 
-data: {"v":"成"}
+data: {"v":"鎴?}
 
 data: {"v":"120"}
 
 data: {"v":"0"}
 
-data: {"v":"字的"}
+data: {"v":"瀛楃殑"}
 
-data: {"v":"文章"}
+data: {"v":"鏂囩珷"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"大约"}
+data: {"v":"澶х害"}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
 data: {"v":"6"}
 
@@ -2549,137 +2549,137 @@ data: {"v":"-"}
 
 data: {"v":"7"}
 
-data: {"v":"段"}
+data: {"v":"娈?}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"可以"}
+data: {"v":"鍙互"}
 
-data: {"v":"这样"}
+data: {"v":"杩欐牱"}
 
-data: {"v":"组织"}
+data: {"v":"缁勭粐"}
 
-data: {"v":"：\n\n"}
+data: {"v":"锛歕n\n"}
 
 data: {"v":"-"}
 
 data: {"v":" "}
 
-data: {"v":"引言"}
+data: {"v":"寮曡█"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"AI"}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"输出"}
+data: {"v":"杈撳嚭"}
 
-data: {"v":"需求"}
+data: {"v":"闇€姹?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"是"}
+data: {"v":"鏄?}
 
-data: {"v":"两种"}
+data: {"v":"涓ょ"}
 
-data: {"v":"主流"}
+data: {"v":"涓绘祦"}
 
-data: {"v":"方案"}
+data: {"v":"鏂规"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"本文"}
+data: {"v":"鏈枃"}
 
-data: {"v":"比较"}
+data: {"v":"姣旇緝"}
 
-data: {"v":"六"}
+data: {"v":"鍏?}
 
-data: {"v":"方面"}
+data: {"v":"鏂归潰"}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"给出"}
+data: {"v":"缁欏嚭"}
 
-data: {"v":"架构"}
+data: {"v":"鏋舵瀯"}
 
-data: {"v":"建议"}
+data: {"v":"寤鸿"}
 
-data: {"v":"。\n"}
+data: {"v":"銆俓n"}
 
 data: {"v":"-"}
 
 data: {"v":" "}
 
-data: {"v":"可靠性"}
+data: {"v":"鍙潬鎬?}
 
-data: {"v":"对比"}
+data: {"v":"瀵规瘮"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
-data: {"v":"描述"}
+data: {"v":"鎻忚堪"}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"内置"}
+data: {"v":"鍐呯疆"}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
-data: {"v":"事件"}
+data: {"v":"浜嬩欢"}
 
 data: {"v":"ID"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"需"}
+data: {"v":"闇€"}
 
-data: {"v":"自"}
+data: {"v":"鑷?}
 
-data: {"v":"建"}
+data: {"v":"寤?}
 
-data: {"v":"。\n"}
+data: {"v":"銆俓n"}
 
 data: {"v":"-"}
 
 data: {"v":" "}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"线"}
+data: {"v":"绾?}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
 data: {"v":"Last"}
 
@@ -2689,239 +2689,239 @@ data: {"v":"Event"}
 
 data: {"v":"-ID"}
 
-data: {"v":"机制"}
+data: {"v":"鏈哄埗"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"服务器"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"缓存"}
+data: {"v":"缂撳瓨"}
 
-data: {"v":"；"}
+data: {"v":"锛?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"手工"}
+data: {"v":"鎵嬪伐"}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"。\n"}
+data: {"v":"銆俓n"}
 
 data: {"v":"-"}
 
 data: {"v":" "}
 
-data: {"v":"负载"}
+data: {"v":"璐熻浇"}
 
-data: {"v":"均衡"}
+data: {"v":"鍧囪　"}
 
-data: {"v":"与"}
+data: {"v":"涓?}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"兼容"}
+data: {"v":"鍏煎"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"使用"}
+data: {"v":"浣跨敤"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"更"}
+data: {"v":"鏇?}
 
-data: {"v":"兼容"}
+data: {"v":"鍏煎"}
 
-data: {"v":"；"}
-
-data: {"v":"Web"}
-
-data: {"v":"Socket"}
-
-data: {"v":"需"}
-
-data: {"v":"升级"}
-
-data: {"v":"支持"}
-
-data: {"v":"。\n"}
-
-data: {"v":"-"}
-
-data: {"v":" "}
-
-data: {"v":"成本"}
-
-data: {"v":"与"}
-
-data: {"v":"可"}
-
-data: {"v":"观测"}
-
-data: {"v":"性"}
-
-data: {"v":"："}
-
-data: {"v":"SS"}
-
-data: {"v":"E"}
-
-data: {"v":"开发"}
-
-data: {"v":"维护"}
-
-data: {"v":"成本"}
-
-data: {"v":"低"}
-
-data: {"v":"，"}
-
-data: {"v":"可"}
-
-data: {"v":"观测"}
-
-data: {"v":"性好"}
-
-data: {"v":"；"}
+data: {"v":"锛?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"复杂"}
+data: {"v":"闇€"}
 
-data: {"v":"。\n"}
+data: {"v":"鍗囩骇"}
+
+data: {"v":"鏀寔"}
+
+data: {"v":"銆俓n"}
 
 data: {"v":"-"}
 
 data: {"v":" "}
 
-data: {"v":"综合"}
+data: {"v":"鎴愭湰"}
 
-data: {"v":"建议"}
+data: {"v":"涓?}
 
-data: {"v":"与"}
+data: {"v":"鍙?}
 
-data: {"v":"分层"}
+data: {"v":"瑙傛祴"}
 
-data: {"v":"架构"}
+data: {"v":"鎬?}
 
-data: {"v":"："}
-
-data: {"v":"推荐"}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"为主"}
+data: {"v":"寮€鍙?}
 
-data: {"v":"，"}
+data: {"v":"缁存姢"}
 
-data: {"v":"给出"}
+data: {"v":"鎴愭湰"}
 
-data: {"v":"分层"}
+data: {"v":"浣?}
 
-data: {"v":"设计"}
+data: {"v":"锛?}
 
-data: {"v":"："}
+data: {"v":"鍙?}
 
-data: {"v":"客户端"}
+data: {"v":"瑙傛祴"}
 
-data: {"v":"、"}
+data: {"v":"鎬уソ"}
 
-data: {"v":"接入"}
+data: {"v":"锛?}
 
-data: {"v":"层"}
+data: {"v":"Web"}
 
-data: {"v":"、"}
+data: {"v":"Socket"}
 
-data: {"v":"流"}
+data: {"v":"澶嶆潅"}
 
-data: {"v":"式"}
+data: {"v":"銆俓n"}
 
-data: {"v":"服务"}
+data: {"v":"-"}
 
-data: {"v":"层"}
+data: {"v":" "}
 
-data: {"v":"、"}
+data: {"v":"缁煎悎"}
 
-data: {"v":"推理"}
+data: {"v":"寤鸿"}
 
-data: {"v":"引擎"}
+data: {"v":"涓?}
 
-data: {"v":"层"}
+data: {"v":"鍒嗗眰"}
 
-data: {"v":"、"}
+data: {"v":"鏋舵瀯"}
 
-data: {"v":"可"}
+data: {"v":"锛?}
 
-data: {"v":"观测"}
+data: {"v":"鎺ㄨ崘"}
 
-data: {"v":"性"}
+data: {"v":"SS"}
 
-data: {"v":"，"}
+data: {"v":"E"}
 
-data: {"v":"并"}
+data: {"v":"涓轰富"}
 
-data: {"v":"说明"}
+data: {"v":"锛?}
 
-data: {"v":"各"}
+data: {"v":"缁欏嚭"}
 
-data: {"v":"层"}
+data: {"v":"鍒嗗眰"}
 
-data: {"v":"职责"}
+data: {"v":"璁捐"}
 
-data: {"v":"。"}
+data: {"v":"锛?}
 
-data: {"v":"混合"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"模式"}
+data: {"v":"銆?}
 
-data: {"v":"备"}
+data: {"v":"鎺ュ叆"}
 
-data: {"v":"选"}
+data: {"v":"灞?}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆?}
 
-data: {"v":"确保"}
+data: {"v":"娴?}
 
-data: {"v":"字数"}
+data: {"v":"寮?}
 
-data: {"v":"约"}
+data: {"v":"鏈嶅姟"}
+
+data: {"v":"灞?}
+
+data: {"v":"銆?}
+
+data: {"v":"鎺ㄧ悊"}
+
+data: {"v":"寮曟搸"}
+
+data: {"v":"灞?}
+
+data: {"v":"銆?}
+
+data: {"v":"鍙?}
+
+data: {"v":"瑙傛祴"}
+
+data: {"v":"鎬?}
+
+data: {"v":"锛?}
+
+data: {"v":"骞?}
+
+data: {"v":"璇存槑"}
+
+data: {"v":"鍚?}
+
+data: {"v":"灞?}
+
+data: {"v":"鑱岃矗"}
+
+data: {"v":"銆?}
+
+data: {"v":"娣峰悎"}
+
+data: {"v":"妯″紡"}
+
+data: {"v":"澶?}
+
+data: {"v":"閫?}
+
+data: {"v":"銆俓n\n"}
+
+data: {"v":"纭繚"}
+
+data: {"v":"瀛楁暟"}
+
+data: {"v":"绾?}
 
 data: {"v":"120"}
 
 data: {"v":"0"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"中"}
+data: {"v":"涓?}
 
-data: {"v":"文字"}
+data: {"v":"鏂囧瓧"}
 
-data: {"v":"符"}
+data: {"v":"绗?}
 
-data: {"v":"数"}
+data: {"v":"鏁?}
 
-data: {"v":"）。"}
+data: {"v":"锛夈€?}
 
-data: {"v":"实际"}
+data: {"v":"瀹為檯"}
 
-data: {"v":"写"}
+data: {"v":"鍐?}
 
-data: {"v":"时"}
+data: {"v":"鏃?}
 
-data: {"v":"控制"}
+data: {"v":"鎺у埗"}
 
 data: {"v":"100"}
 
@@ -2933,83 +2933,83 @@ data: {"v":"150"}
 
 data: {"v":"0"}
 
-data: {"v":"字"}
+data: {"v":"瀛?}
 
-data: {"v":"之间"}
+data: {"v":"涔嬮棿"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"无需"}
+data: {"v":"鏃犻渶"}
 
-data: {"v":"特别"}
+data: {"v":"鐗瑰埆"}
 
-data: {"v":"精确"}
+data: {"v":"绮剧‘"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"大致"}
+data: {"v":"澶ц嚧"}
 
-data: {"v":"即可"}
+data: {"v":"鍗冲彲"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"现在"}
+data: {"v":"鐜板湪"}
 
-data: {"v":"写出"}
+data: {"v":"鍐欏嚭"}
 
-data: {"v":"最终"}
+data: {"v":"鏈€缁?}
 
-data: {"v":"回答"}
+data: {"v":"鍥炵瓟"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
 data: {"p":"response/fragments/-1/elapsed_secs","o":"SET","v":49.301517849}
 
-data: {"p":"response/fragments","o":"APPEND","v":[{"id":3,"type":"RESPONSE","content":"在","references":[],"stage_id":1}]}
+data: {"p":"response/fragments","o":"APPEND","v":[{"id":3,"type":"RESPONSE","content":"鍦?,"references":[],"stage_id":1}]}
 
 data: {"p":"response/fragments/-1/content","v":"AI"}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"输出"}
+data: {"v":"杈撳嚭"}
 
-data: {"v":"场景"}
+data: {"v":"鍦烘櫙"}
 
-data: {"v":"中"}
+data: {"v":"涓?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"服务器"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"需"}
+data: {"v":"闇€"}
 
-data: {"v":"将"}
+data: {"v":"灏?}
 
-data: {"v":"生成的"}
+data: {"v":"鐢熸垚鐨?}
 
 data: {"v":"token"}
 
-data: {"v":"序列"}
+data: {"v":"搴忓垪"}
 
-data: {"v":"实时"}
+data: {"v":"瀹炴椂"}
 
-data: {"v":"推"}
+data: {"v":"鎺?}
 
-data: {"v":"送给"}
+data: {"v":"閫佺粰"}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
 data: {"v":"Server"}
 
@@ -3019,95 +3019,95 @@ data: {"v":"ent"}
 
 data: {"v":" Events"}
 
-data: {"v":"）"}
+data: {"v":"锛?}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"是"}
+data: {"v":"鏄?}
 
-data: {"v":"两种"}
+data: {"v":"涓ょ"}
 
-data: {"v":"主"}
+data: {"v":"涓?}
 
-data: {"v":"流的"}
+data: {"v":"娴佺殑"}
 
-data: {"v":"通信"}
+data: {"v":"閫氫俊"}
 
-data: {"v":"方案"}
+data: {"v":"鏂规"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"本文"}
+data: {"v":"鏈枃"}
 
-data: {"v":"从"}
+data: {"v":"浠?}
 
-data: {"v":"可靠性"}
+data: {"v":"鍙潬鎬?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"线"}
+data: {"v":"绾?}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"负载"}
+data: {"v":"璐熻浇"}
 
-data: {"v":"均衡"}
+data: {"v":"鍧囪　"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"兼容"}
+data: {"v":"鍏煎"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"成本和"}
+data: {"v":"鎴愭湰鍜?}
 
-data: {"v":"可"}
+data: {"v":"鍙?}
 
-data: {"v":"观测"}
+data: {"v":"瑙傛祴"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"六个"}
+data: {"v":"鍏釜"}
 
-data: {"v":"维度"}
+data: {"v":"缁村害"}
 
-data: {"v":"进行"}
+data: {"v":"杩涜"}
 
-data: {"v":"对比"}
+data: {"v":"瀵规瘮"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"给出"}
+data: {"v":"缁欏嚭"}
 
-data: {"v":"分层"}
+data: {"v":"鍒嗗眰"}
 
-data: {"v":"架构"}
+data: {"v":"鏋舵瀯"}
 
-data: {"v":"建议"}
+data: {"v":"寤鸿"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
 data: {"v":"**"}
 
-data: {"v":"一"}
+data: {"v":"涓€"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"可靠性"}
+data: {"v":"鍙潬鎬?}
 
 data: {"v":"**"}
 
@@ -3117,33 +3117,33 @@ data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"基于"}
+data: {"v":"鍩轰簬"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"协议"}
+data: {"v":"鍗忚"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"继承了"}
+data: {"v":"缁ф壙浜?}
 
 data: {"v":"HTTP"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
-data: {"v":"自动"}
+data: {"v":"鑷姩"}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"机制"}
+data: {"v":"鏈哄埗"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"浏览器"}
+data: {"v":"娴忚鍣?}
 
-data: {"v":"端"}
+data: {"v":"绔?}
 
 data: {"v":"Event"}
 
@@ -3151,27 +3151,27 @@ data: {"v":"Source"}
 
 data: {"v":" API"}
 
-data: {"v":"在"}
+data: {"v":"鍦?}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"断开"}
+data: {"v":"鏂紑"}
 
-data: {"v":"后"}
+data: {"v":"鍚?}
 
-data: {"v":"会自动"}
+data: {"v":"浼氳嚜鍔?}
 
-data: {"v":"发起"}
+data: {"v":"鍙戣捣"}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"可通过"}
+data: {"v":"鍙€氳繃"}
 
 data: {"v":"`"}
 
@@ -3185,77 +3185,77 @@ data: {"v":"-ID"}
 
 data: {"v":"`"}
 
-data: {"v":"头"}
+data: {"v":"澶?}
 
-data: {"v":"告知"}
+data: {"v":"鍛婄煡"}
 
-data: {"v":"服务器"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"最后"}
+data: {"v":"鏈€鍚?}
 
-data: {"v":"接收"}
+data: {"v":"鎺ユ敹"}
 
-data: {"v":"的事件"}
+data: {"v":"鐨勪簨浠?}
 
 data: {"v":"ID"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"服务器"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"据此"}
+data: {"v":"鎹"}
 
-data: {"v":"推送"}
+data: {"v":"鎺ㄩ€?}
 
-data: {"v":"后续"}
+data: {"v":"鍚庣画"}
 
-data: {"v":"事件"}
+data: {"v":"浜嬩欢"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"实现"}
+data: {"v":"瀹炵幇"}
 
-data: {"v":"精确"}
+data: {"v":"绮剧‘"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"点"}
+data: {"v":"鐐?}
 
-data: {"v":"续"}
+data: {"v":"缁?}
 
-data: {"v":"传"}
+data: {"v":"浼?}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"这种"}
+data: {"v":"杩欑"}
 
-data: {"v":"设计"}
+data: {"v":"璁捐"}
 
-data: {"v":"对"}
+data: {"v":"瀵?}
 
-data: {"v":"开发者"}
+data: {"v":"寮€鍙戣€?}
 
-data: {"v":"透明"}
+data: {"v":"閫忔槑"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"无需"}
+data: {"v":"鏃犻渶"}
 
-data: {"v":"额外"}
+data: {"v":"棰濆"}
 
-data: {"v":"的心"}
+data: {"v":"鐨勫績"}
 
-data: {"v":"跳"}
+data: {"v":"璺?}
 
-data: {"v":"与"}
+data: {"v":"涓?}
 
-data: {"v":"状态"}
+data: {"v":"鐘舵€?}
 
-data: {"v":"管理"}
+data: {"v":"绠＄悊"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
 data: {"v":"  \n"}
 
@@ -3263,143 +3263,143 @@ data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"本身"}
+data: {"v":"鏈韩"}
 
-data: {"v":"不"}
+data: {"v":"涓?}
 
-data: {"v":"内置"}
+data: {"v":"鍐呯疆"}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"与"}
+data: {"v":"涓?}
 
-data: {"v":"消息"}
+data: {"v":"娑堟伅"}
 
-data: {"v":"确认"}
+data: {"v":"纭"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"断开"}
+data: {"v":"鏂紑"}
 
-data: {"v":"后"}
+data: {"v":"鍚?}
 
-data: {"v":"需"}
+data: {"v":"闇€"}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"主动"}
+data: {"v":"涓诲姩"}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"自行"}
+data: {"v":"鑷"}
 
-data: {"v":"实现"}
+data: {"v":"瀹炵幇"}
 
-data: {"v":"消息"}
+data: {"v":"娑堟伅"}
 
 data: {"v":"ID"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
 data: {"v":"ACK"}
 
-data: {"v":"及"}
+data: {"v":"鍙?}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"放"}
+data: {"v":"鏀?}
 
-data: {"v":"逻辑"}
+data: {"v":"閫昏緫"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"虽然"}
+data: {"v":"铏界劧"}
 
-data: {"v":"可"}
+data: {"v":"鍙?}
 
-data: {"v":"设计"}
+data: {"v":"璁捐"}
 
-data: {"v":"出"}
+data: {"v":"鍑?}
 
-data: {"v":"更"}
+data: {"v":"鏇?}
 
-data: {"v":"灵活的"}
+data: {"v":"鐏垫椿鐨?}
 
-data: {"v":"可靠"}
+data: {"v":"鍙潬"}
 
-data: {"v":"传输"}
+data: {"v":"浼犺緭"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"如"}
+data: {"v":"濡?}
 
-data: {"v":"选择性"}
+data: {"v":"閫夋嫨鎬?}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"传"}
+data: {"v":"浼?}
 
-data: {"v":"），"}
+data: {"v":"锛夛紝"}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
-data: {"v":"复杂性"}
+data: {"v":"澶嶆潅鎬?}
 
-data: {"v":"显著"}
+data: {"v":"鏄捐憲"}
 
-data: {"v":"增加"}
+data: {"v":"澧炲姞"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"易"}
+data: {"v":"鏄?}
 
-data: {"v":"引入"}
+data: {"v":"寮曞叆"}
 
-data: {"v":"缺陷"}
+data: {"v":"缂洪櫡"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
 data: {"v":"**"}
 
-data: {"v":"二"}
+data: {"v":"浜?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"线"}
+data: {"v":"绾?}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
 data: {"v":"**"}
 
 data: {"v":"  \n"}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"线"}
+data: {"v":"绾?}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"直接影响"}
+data: {"v":"鐩存帴褰卞搷"}
 
-data: {"v":"用户体验"}
+data: {"v":"鐢ㄦ埛浣撻獙"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
 data: {"v":"`"}
 
@@ -3413,103 +3413,103 @@ data: {"v":"-ID"}
 
 data: {"v":"`"}
 
-data: {"v":"机制"}
+data: {"v":"鏈哄埗"}
 
-data: {"v":"天然"}
+data: {"v":"澶╃劧"}
 
-data: {"v":"支持"}
+data: {"v":"鏀寔"}
 
-data: {"v":"增量"}
+data: {"v":"澧為噺"}
 
-data: {"v":"续"}
+data: {"v":"缁?}
 
-data: {"v":"传"}
+data: {"v":"浼?}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
-data: {"v":"服务器"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"只需"}
+data: {"v":"鍙渶"}
 
-data: {"v":"按"}
+data: {"v":"鎸?}
 
 data: {"v":"ID"}
 
-data: {"v":"缓存"}
+data: {"v":"缂撳瓨"}
 
-data: {"v":"已"}
+data: {"v":"宸?}
 
-data: {"v":"生成"}
+data: {"v":"鐢熸垚"}
 
-data: {"v":"的事件"}
+data: {"v":"鐨勪簨浠?}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"如"}
-
-data: {"v":"token"}
-
-data: {"v":"序列"}
-
-data: {"v":"），"}
-
-data: {"v":"重"}
-
-data: {"v":"连"}
-
-data: {"v":"时"}
-
-data: {"v":"跳过"}
-
-data: {"v":"已"}
-
-data: {"v":"确认"}
-
-data: {"v":"部分"}
-
-data: {"v":"，"}
-
-data: {"v":"直接"}
-
-data: {"v":"推送"}
-
-data: {"v":"后续"}
-
-data: {"v":"数据"}
-
-data: {"v":"。"}
-
-data: {"v":"这对"}
+data: {"v":"濡?}
 
 data: {"v":"token"}
 
-data: {"v":"级别"}
+data: {"v":"搴忓垪"}
 
-data: {"v":"输出"}
+data: {"v":"锛夛紝"}
 
-data: {"v":"极为"}
+data: {"v":"閲?}
 
-data: {"v":"友好"}
+data: {"v":"杩?}
 
-data: {"v":"，"}
+data: {"v":"鏃?}
 
-data: {"v":"可"}
+data: {"v":"璺宠繃"}
 
-data: {"v":"避免"}
+data: {"v":"宸?}
 
-data: {"v":"重复"}
+data: {"v":"纭"}
 
-data: {"v":"生成"}
+data: {"v":"閮ㄥ垎"}
 
-data: {"v":"或"}
+data: {"v":"锛?}
 
-data: {"v":"丢失"}
+data: {"v":"鐩存帴"}
 
-data: {"v":"中间"}
+data: {"v":"鎺ㄩ€?}
 
-data: {"v":"内容"}
+data: {"v":"鍚庣画"}
 
-data: {"v":"。"}
+data: {"v":"鏁版嵁"}
+
+data: {"v":"銆?}
+
+data: {"v":"杩欏"}
+
+data: {"v":"token"}
+
+data: {"v":"绾у埆"}
+
+data: {"v":"杈撳嚭"}
+
+data: {"v":"鏋佷负"}
+
+data: {"v":"鍙嬪ソ"}
+
+data: {"v":"锛?}
+
+data: {"v":"鍙?}
+
+data: {"v":"閬垮厤"}
+
+data: {"v":"閲嶅"}
+
+data: {"v":"鐢熸垚"}
+
+data: {"v":"鎴?}
+
+data: {"v":"涓㈠け"}
+
+data: {"v":"涓棿"}
+
+data: {"v":"鍐呭"}
+
+data: {"v":"銆?}
 
 data: {"v":"  \n"}
 
@@ -3517,137 +3517,137 @@ data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"要实现"}
+data: {"v":"瑕佸疄鐜?}
 
-data: {"v":"同等"}
+data: {"v":"鍚岀瓑"}
 
-data: {"v":"效果"}
+data: {"v":"鏁堟灉"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"必须"}
+data: {"v":"蹇呴』"}
 
-data: {"v":"自定义"}
+data: {"v":"鑷畾涔?}
 
-data: {"v":"序列"}
+data: {"v":"搴忓垪"}
 
-data: {"v":"号"}
+data: {"v":"鍙?}
 
-data: {"v":"与"}
+data: {"v":"涓?}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"协议"}
+data: {"v":"鍗忚"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"若"}
+data: {"v":"鑻?}
 
-data: {"v":"服务"}
+data: {"v":"鏈嶅姟"}
 
-data: {"v":"端"}
+data: {"v":"绔?}
 
-data: {"v":"需"}
+data: {"v":"闇€"}
 
-data: {"v":"缓存"}
+data: {"v":"缂撳瓨"}
 
-data: {"v":"未"}
+data: {"v":"鏈?}
 
-data: {"v":"确认"}
+data: {"v":"纭"}
 
-data: {"v":"消息"}
+data: {"v":"娑堟伅"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"会使"}
+data: {"v":"浼氫娇"}
 
-data: {"v":"无"}
+data: {"v":"鏃?}
 
-data: {"v":"状态"}
+data: {"v":"鐘舵€?}
 
-data: {"v":"架构"}
+data: {"v":"鏋舵瀯"}
 
-data: {"v":"变"}
+data: {"v":"鍙?}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"；"}
+data: {"v":"锛?}
 
-data: {"v":"若"}
+data: {"v":"鑻?}
 
-data: {"v":"依赖"}
+data: {"v":"渚濊禆"}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"补"}
+data: {"v":"琛?}
 
-data: {"v":"拉"}
+data: {"v":"鎷?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"则"}
+data: {"v":"鍒?}
 
-data: {"v":"增加"}
+data: {"v":"澧炲姞"}
 
-data: {"v":"交互"}
+data: {"v":"浜や簰"}
 
-data: {"v":"次数"}
+data: {"v":"娆℃暟"}
 
-data: {"v":"与"}
+data: {"v":"涓?}
 
-data: {"v":"延迟"}
+data: {"v":"寤惰繜"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"因此"}
+data: {"v":"鍥犳"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"在"}
+data: {"v":"鍦?}
 
-data: {"v":"典型的"}
+data: {"v":"鍏稿瀷鐨?}
 
-data: {"v":"单向"}
+data: {"v":"鍗曞悜"}
 
-data: {"v":"推"}
+data: {"v":"鎺?}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"场景"}
+data: {"v":"鍦烘櫙"}
 
-data: {"v":"中"}
+data: {"v":"涓?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"线"}
+data: {"v":"绾?}
 
-data: {"v":"恢复"}
+data: {"v":"鎭㈠"}
 
-data: {"v":"更"}
+data: {"v":"鏇?}
 
-data: {"v":"简单"}
+data: {"v":"绠€鍗?}
 
-data: {"v":"可靠"}
+data: {"v":"鍙潬"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
 data: {"v":"**"}
 
-data: {"v":"三"}
+data: {"v":"涓?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"负载"}
+data: {"v":"璐熻浇"}
 
-data: {"v":"均衡"}
+data: {"v":"鍧囪　"}
 
 data: {"v":"**"}
 
@@ -3657,77 +3657,77 @@ data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"使用"}
+data: {"v":"浣跨敤"}
 
-data: {"v":"标准"}
+data: {"v":"鏍囧噯"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"长"}
+data: {"v":"闀?}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"可"}
+data: {"v":"鍙?}
 
-data: {"v":"被"}
+data: {"v":"琚?}
 
 data: {"v":"N"}
 
 data: {"v":"ginx"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
 data: {"v":"HA"}
 
 data: {"v":"Proxy"}
 
-data: {"v":"等"}
+data: {"v":"绛?}
 
-data: {"v":"常规"}
+data: {"v":"甯歌"}
 
-data: {"v":"负载"}
+data: {"v":"璐熻浇"}
 
-data: {"v":"均衡"}
+data: {"v":"鍧囪　"}
 
-data: {"v":"器"}
+data: {"v":"鍣?}
 
-data: {"v":"直接"}
+data: {"v":"鐩存帴"}
 
-data: {"v":"分发"}
+data: {"v":"鍒嗗彂"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"只需"}
+data: {"v":"鍙渶"}
 
-data: {"v":"调整"}
+data: {"v":"璋冩暣"}
 
-data: {"v":"超"}
+data: {"v":"瓒?}
 
-data: {"v":"时"}
+data: {"v":"鏃?}
 
-data: {"v":"配置"}
+data: {"v":"閰嶇疆"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"关闭"}
+data: {"v":"鍏抽棴"}
 
-data: {"v":"缓冲"}
+data: {"v":"缂撳啿"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"即可"}
+data: {"v":"鍗冲彲"}
 
-data: {"v":"支撑"}
+data: {"v":"鏀拺"}
 
-data: {"v":"大量"}
+data: {"v":"澶ч噺"}
 
-data: {"v":"长"}
+data: {"v":"闀?}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
 data: {"v":"HTTP"}
 
@@ -3735,25 +3735,25 @@ data: {"v":"/"}
 
 data: {"v":"2"}
 
-data: {"v":"下"}
+data: {"v":"涓?}
 
-data: {"v":"还可"}
+data: {"v":"杩樺彲"}
 
-data: {"v":"借助"}
+data: {"v":"鍊熷姪"}
 
-data: {"v":"多"}
+data: {"v":"澶?}
 
-data: {"v":"路"}
+data: {"v":"璺?}
 
-data: {"v":"复用"}
+data: {"v":"澶嶇敤"}
 
-data: {"v":"减少"}
+data: {"v":"鍑忓皯"}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"数"}
+data: {"v":"鏁?}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
 data: {"v":"  \n"}
 
@@ -3761,133 +3761,133 @@ data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"通过"}
+data: {"v":"閫氳繃"}
 
-data: {"v":"协议"}
+data: {"v":"鍗忚"}
 
-data: {"v":"升级"}
+data: {"v":"鍗囩骇"}
 
-data: {"v":"建立"}
+data: {"v":"寤虹珛"}
 
-data: {"v":"全"}
+data: {"v":"鍏?}
 
-data: {"v":"双"}
+data: {"v":"鍙?}
 
-data: {"v":"工"}
+data: {"v":"宸?}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"需要"}
+data: {"v":"闇€瑕?}
 
-data: {"v":"负载"}
+data: {"v":"璐熻浇"}
 
-data: {"v":"均衡"}
+data: {"v":"鍧囪　"}
 
-data: {"v":"器"}
+data: {"v":"鍣?}
 
-data: {"v":"显"}
+data: {"v":"鏄?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"支持"}
+data: {"v":"鏀寔"}
 
 data: {"v":"Up"}
 
 data: {"v":"grade"}
 
-data: {"v":"与"}
+data: {"v":"涓?}
 
 data: {"v":"Connection"}
 
-data: {"v":"头"}
+data: {"v":"澶?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"且"}
+data: {"v":"涓?}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"建立"}
+data: {"v":"寤虹珛"}
 
-data: {"v":"后"}
+data: {"v":"鍚?}
 
-data: {"v":"负载"}
+data: {"v":"璐熻浇"}
 
-data: {"v":"均衡"}
+data: {"v":"鍧囪　"}
 
-data: {"v":"器"}
+data: {"v":"鍣?}
 
-data: {"v":"通常"}
+data: {"v":"閫氬父"}
 
-data: {"v":"只能"}
+data: {"v":"鍙兘"}
 
-data: {"v":"维持"}
+data: {"v":"缁存寔"}
 
-data: {"v":"固定的"}
+data: {"v":"鍥哄畾鐨?}
 
-data: {"v":"后端"}
+data: {"v":"鍚庣"}
 
-data: {"v":"映射"}
+data: {"v":"鏄犲皠"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"灵活性"}
+data: {"v":"鐏垫椿鎬?}
 
-data: {"v":"略"}
+data: {"v":"鐣?}
 
-data: {"v":"低"}
+data: {"v":"浣?}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"两者"}
+data: {"v":"涓よ€?}
 
-data: {"v":"在"}
+data: {"v":"鍦?}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"资源"}
+data: {"v":"璧勬簮"}
 
-data: {"v":"消耗"}
+data: {"v":"娑堣€?}
 
-data: {"v":"上"}
+data: {"v":"涓?}
 
-data: {"v":"相近"}
+data: {"v":"鐩歌繎"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"但"}
+data: {"v":"浣?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"部署"}
+data: {"v":"閮ㄧ讲"}
 
-data: {"v":"与"}
+data: {"v":"涓?}
 
-data: {"v":"横向"}
+data: {"v":"妯悜"}
 
-data: {"v":"扩展"}
+data: {"v":"鎵╁睍"}
 
-data: {"v":"更"}
+data: {"v":"鏇?}
 
-data: {"v":"便捷"}
+data: {"v":"渚挎嵎"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
 data: {"v":"**"}
 
-data: {"v":"四"}
+data: {"v":"鍥?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"兼容"}
+data: {"v":"鍏煎"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
 data: {"v":"**"}
 
@@ -3897,67 +3897,67 @@ data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
-data: {"v":"流量"}
+data: {"v":"娴侀噺"}
 
-data: {"v":"是"}
+data: {"v":"鏄?}
 
-data: {"v":"普通"}
+data: {"v":"鏅€?}
 
 data: {"v":"HTTP"}
 
-data: {"v":"响应"}
+data: {"v":"鍝嶅簲"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"绝大多数"}
+data: {"v":"缁濆ぇ澶氭暟"}
 
-data: {"v":"企业"}
+data: {"v":"浼佷笟"}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
 data: {"v":"CD"}
 
 data: {"v":"N"}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
-data: {"v":"防火墙"}
+data: {"v":"闃茬伀澧?}
 
-data: {"v":"均"}
+data: {"v":"鍧?}
 
-data: {"v":"能"}
+data: {"v":"鑳?}
 
-data: {"v":"透"}
+data: {"v":"閫?}
 
-data: {"v":"传"}
+data: {"v":"浼?}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"仅"}
+data: {"v":"浠?}
 
-data: {"v":"需"}
+data: {"v":"闇€"}
 
-data: {"v":"注意"}
+data: {"v":"娉ㄦ剰"}
 
-data: {"v":"部分"}
+data: {"v":"閮ㄥ垎"}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"可能"}
+data: {"v":"鍙兘"}
 
-data: {"v":"缓冲"}
+data: {"v":"缂撳啿"}
 
-data: {"v":"数据"}
+data: {"v":"鏁版嵁"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"通过"}
+data: {"v":"閫氳繃"}
 
-data: {"v":"设置"}
+data: {"v":"璁剧疆"}
 
 data: {"v":"`"}
 
@@ -3981,21 +3981,21 @@ data: {"v":" no"}
 
 data: {"v":"`"}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
-data: {"v":"添加"}
+data: {"v":"娣诲姞"}
 
-data: {"v":"限"}
+data: {"v":"闄?}
 
-data: {"v":"时"}
+data: {"v":"鏃?}
 
-data: {"v":"头"}
+data: {"v":"澶?}
 
-data: {"v":"即可"}
+data: {"v":"鍗冲彲"}
 
-data: {"v":"解决"}
+data: {"v":"瑙ｅ喅"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
 data: {"v":"  \n"}
 
@@ -4003,105 +4003,105 @@ data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"要求"}
+data: {"v":"瑕佹眰"}
 
-data: {"v":"中间"}
+data: {"v":"涓棿"}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"理解"}
+data: {"v":"鐞嗚В"}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"支持"}
+data: {"v":"鏀寔"}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"协议"}
+data: {"v":"鍗忚"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"许多"}
+data: {"v":"璁稿"}
 
-data: {"v":"老"}
+data: {"v":"鑰?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"部分"}
+data: {"v":"閮ㄥ垎"}
 
-data: {"v":"安全"}
+data: {"v":"瀹夊叏"}
 
-data: {"v":"网关"}
+data: {"v":"缃戝叧"}
 
-data: {"v":"会"}
+data: {"v":"浼?}
 
-data: {"v":"阻断"}
+data: {"v":"闃绘柇"}
 
 data: {"v":"Up"}
 
 data: {"v":"grade"}
 
-data: {"v":"请求"}
+data: {"v":"璇锋眰"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"导致"}
+data: {"v":"瀵艰嚧"}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"失败"}
+data: {"v":"澶辫触"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"在"}
+data: {"v":"鍦?}
 
-data: {"v":"复杂"}
+data: {"v":"澶嶆潅"}
 
-data: {"v":"网络"}
+data: {"v":"缃戠粶"}
 
-data: {"v":"环境"}
+data: {"v":"鐜"}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
 data: {"v":"to"}
 
 data: {"v":"B"}
 
-data: {"v":"交付"}
+data: {"v":"浜や粯"}
 
-data: {"v":"中"}
+data: {"v":"涓?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"具有"}
+data: {"v":"鍏锋湁"}
 
-data: {"v":"更"}
+data: {"v":"鏇?}
 
-data: {"v":"广泛的"}
+data: {"v":"骞挎硾鐨?}
 
-data: {"v":"兼容"}
+data: {"v":"鍏煎"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
 data: {"v":"**"}
 
-data: {"v":"五"}
+data: {"v":"浜?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"成本"}
+data: {"v":"鎴愭湰"}
 
 data: {"v":"**"}
 
@@ -4111,21 +4111,21 @@ data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"开发"}
+data: {"v":"寮€鍙?}
 
-data: {"v":"成本"}
+data: {"v":"鎴愭湰"}
 
-data: {"v":"低"}
+data: {"v":"浣?}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
-data: {"v":"服务"}
+data: {"v":"鏈嶅姟"}
 
-data: {"v":"端"}
+data: {"v":"绔?}
 
-data: {"v":"只需"}
+data: {"v":"鍙渶"}
 
-data: {"v":"设置"}
+data: {"v":"璁剧疆"}
 
 data: {"v":"`"}
 
@@ -4145,63 +4145,63 @@ data: {"v":"-stream"}
 
 data: {"v":"`"}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"持续"}
+data: {"v":"鎸佺画"}
 
-data: {"v":"写入"}
+data: {"v":"鍐欏叆"}
 
-data: {"v":"数据"}
+data: {"v":"鏁版嵁"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"使用"}
+data: {"v":"浣跨敤"}
 
-data: {"v":"浏览器"}
+data: {"v":"娴忚鍣?}
 
-data: {"v":"内置"}
+data: {"v":"鍐呯疆"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
 data: {"v":"Event"}
 
 data: {"v":"Source"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"无需"}
+data: {"v":"鏃犻渶"}
 
-data: {"v":"引入"}
+data: {"v":"寮曞叆"}
 
-data: {"v":"额外"}
+data: {"v":"棰濆"}
 
-data: {"v":"库"}
+data: {"v":"搴?}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"维护"}
+data: {"v":"缁存姢"}
 
-data: {"v":"也"}
+data: {"v":"涔?}
 
-data: {"v":"简单"}
+data: {"v":"绠€鍗?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"因为"}
+data: {"v":"鍥犱负"}
 
-data: {"v":"问题"}
+data: {"v":"闂"}
 
-data: {"v":"排查"}
+data: {"v":"鎺掓煡"}
 
-data: {"v":"遵循"}
+data: {"v":"閬靛惊"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"语义"}
+data: {"v":"璇箟"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
 data: {"v":"  \n"}
 
@@ -4209,125 +4209,125 @@ data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"需"}
+data: {"v":"闇€"}
 
-data: {"v":"引入"}
+data: {"v":"寮曞叆"}
 
-data: {"v":"专用"}
+data: {"v":"涓撶敤"}
 
-data: {"v":"库"}
+data: {"v":"搴?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"自行"}
+data: {"v":"鑷"}
 
-data: {"v":"处理"}
+data: {"v":"澶勭悊"}
 
-data: {"v":"分"}
+data: {"v":"鍒?}
 
-data: {"v":"帧"}
+data: {"v":"甯?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"心跳"}
+data: {"v":"蹇冭烦"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"重"}
+data: {"v":"閲?}
 
-data: {"v":"连"}
+data: {"v":"杩?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"序列"}
+data: {"v":"搴忓垪"}
 
-data: {"v":"化"}
+data: {"v":"鍖?}
 
-data: {"v":"等"}
+data: {"v":"绛?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"代码"}
+data: {"v":"浠ｇ爜"}
 
-data: {"v":"量"}
+data: {"v":"閲?}
 
-data: {"v":"较大"}
+data: {"v":"杈冨ぇ"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"且"}
+data: {"v":"涓?}
 
-data: {"v":"调试"}
+data: {"v":"璋冭瘯"}
 
-data: {"v":"时"}
+data: {"v":"鏃?}
 
-data: {"v":"无法"}
+data: {"v":"鏃犳硶"}
 
-data: {"v":"像"}
+data: {"v":"鍍?}
 
 data: {"v":"HTTP"}
 
-data: {"v":"那样"}
+data: {"v":"閭ｆ牱"}
 
-data: {"v":"直接"}
+data: {"v":"鐩存帴"}
 
-data: {"v":"查看"}
+data: {"v":"鏌ョ湅"}
 
-data: {"v":"明文"}
+data: {"v":"鏄庢枃"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"维护"}
+data: {"v":"缁存姢"}
 
-data: {"v":"成本"}
+data: {"v":"鎴愭湰"}
 
-data: {"v":"高"}
+data: {"v":"楂?}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"从"}
+data: {"v":"浠?}
 
-data: {"v":"总"}
+data: {"v":"鎬?}
 
-data: {"v":"拥有"}
+data: {"v":"鎷ユ湁"}
 
-data: {"v":"成本"}
+data: {"v":"鎴愭湰"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
 data: {"v":"T"}
 
 data: {"v":"CO"}
 
-data: {"v":"）"}
+data: {"v":"锛?}
 
-data: {"v":"看"}
+data: {"v":"鐪?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"优势"}
+data: {"v":"浼樺娍"}
 
-data: {"v":"明显"}
+data: {"v":"鏄庢樉"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
 data: {"v":"**"}
 
-data: {"v":"六"}
+data: {"v":"鍏?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"可"}
+data: {"v":"鍙?}
 
-data: {"v":"观测"}
+data: {"v":"瑙傛祴"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
 data: {"v":"**"}
 
@@ -4337,91 +4337,91 @@ data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"完美"}
+data: {"v":"瀹岀編"}
 
-data: {"v":"融入"}
-
-data: {"v":"HTTP"}
-
-data: {"v":"生态"}
-
-data: {"v":"："}
-
-data: {"v":"所有"}
+data: {"v":"铻嶅叆"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"中间"}
+data: {"v":"鐢熸€?}
 
-data: {"v":"件"}
+data: {"v":"锛?}
 
-data: {"v":"、"}
+data: {"v":"鎵€鏈?}
 
-data: {"v":"日志"}
+data: {"v":"HTTP"}
 
-data: {"v":"系统"}
+data: {"v":"涓棿"}
 
-data: {"v":"、"}
+data: {"v":"浠?}
+
+data: {"v":"銆?}
+
+data: {"v":"鏃ュ織"}
+
+data: {"v":"绯荤粺"}
+
+data: {"v":"銆?}
 
 data: {"v":"AP"}
 
 data: {"v":"M"}
 
-data: {"v":"工具"}
+data: {"v":"宸ュ叿"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"链路"}
+data: {"v":"閾捐矾"}
 
-data: {"v":"追踪"}
+data: {"v":"杩借釜"}
 
-data: {"v":"均可"}
+data: {"v":"鍧囧彲"}
 
-data: {"v":"直接"}
+data: {"v":"鐩存帴"}
 
-data: {"v":"用于"}
+data: {"v":"鐢ㄤ簬"}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"可通过"}
+data: {"v":"鍙€氳繃"}
 
-data: {"v":"请求"}
+data: {"v":"璇锋眰"}
 
-data: {"v":"头"}
+data: {"v":"澶?}
 
-data: {"v":"注入"}
+data: {"v":"娉ㄥ叆"}
 
 data: {"v":"trace"}
 
 data: {"v":" ID"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"利用"}
+data: {"v":"鍒╃敤"}
 
-data: {"v":"访问"}
+data: {"v":"璁块棶"}
 
-data: {"v":"日志"}
+data: {"v":"鏃ュ織"}
 
-data: {"v":"分析"}
+data: {"v":"鍒嗘瀽"}
 
-data: {"v":"流量"}
+data: {"v":"娴侀噺"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"排查"}
+data: {"v":"鎺掓煡"}
 
-data: {"v":"错误"}
+data: {"v":"閿欒"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
 data: {"v":"  \n"}
 
@@ -4429,177 +4429,177 @@ data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"升级"}
+data: {"v":"鍗囩骇"}
 
-data: {"v":"后"}
+data: {"v":"鍚?}
 
-data: {"v":"便"}
+data: {"v":"渚?}
 
-data: {"v":"脱离"}
-
-data: {"v":"HTTP"}
-
-data: {"v":"语境"}
-
-data: {"v":"，"}
-
-data: {"v":"后续"}
-
-data: {"v":"帧"}
-
-data: {"v":"交换"}
-
-data: {"v":"需"}
-
-data: {"v":"应用"}
-
-data: {"v":"层"}
-
-data: {"v":"埋"}
-
-data: {"v":"点"}
-
-data: {"v":"记录"}
-
-data: {"v":"，"}
-
-data: {"v":"与"}
-
-data: {"v":"标准"}
+data: {"v":"鑴辩"}
 
 data: {"v":"HTTP"}
 
-data: {"v":"监控"}
+data: {"v":"璇"}
 
-data: {"v":"工具的"}
+data: {"v":"锛?}
 
-data: {"v":"集成"}
+data: {"v":"鍚庣画"}
 
-data: {"v":"度"}
+data: {"v":"甯?}
 
-data: {"v":"差"}
+data: {"v":"浜ゆ崲"}
 
-data: {"v":"，"}
+data: {"v":"闇€"}
 
-data: {"v":"对"}
+data: {"v":"搴旂敤"}
 
-data: {"v":"可"}
+data: {"v":"灞?}
 
-data: {"v":"观测"}
+data: {"v":"鍩?}
 
-data: {"v":"性"}
+data: {"v":"鐐?}
 
-data: {"v":"平台"}
+data: {"v":"璁板綍"}
 
-data: {"v":"的要求"}
+data: {"v":"锛?}
 
-data: {"v":"更高"}
+data: {"v":"涓?}
 
-data: {"v":"，"}
+data: {"v":"鏍囧噯"}
 
-data: {"v":"无形"}
+data: {"v":"HTTP"}
 
-data: {"v":"中"}
+data: {"v":"鐩戞帶"}
 
-data: {"v":"增加了"}
+data: {"v":"宸ュ叿鐨?}
 
-data: {"v":"运维"}
+data: {"v":"闆嗘垚"}
 
-data: {"v":"成本"}
+data: {"v":"搴?}
 
-data: {"v":"。\n\n"}
+data: {"v":"宸?}
+
+data: {"v":"锛?}
+
+data: {"v":"瀵?}
+
+data: {"v":"鍙?}
+
+data: {"v":"瑙傛祴"}
+
+data: {"v":"鎬?}
+
+data: {"v":"骞冲彴"}
+
+data: {"v":"鐨勮姹?}
+
+data: {"v":"鏇撮珮"}
+
+data: {"v":"锛?}
+
+data: {"v":"鏃犲舰"}
+
+data: {"v":"涓?}
+
+data: {"v":"澧炲姞浜?}
+
+data: {"v":"杩愮淮"}
+
+data: {"v":"鎴愭湰"}
+
+data: {"v":"銆俓n\n"}
 
 data: {"v":"**"}
 
-data: {"v":"分层"}
+data: {"v":"鍒嗗眰"}
 
-data: {"v":"架构"}
+data: {"v":"鏋舵瀯"}
 
-data: {"v":"建议"}
+data: {"v":"寤鸿"}
 
 data: {"v":"**"}
 
 data: {"v":"  \n"}
 
-data: {"v":"基于"}
+data: {"v":"鍩轰簬"}
 
-data: {"v":"上述"}
+data: {"v":"涓婅堪"}
 
-data: {"v":"对比"}
+data: {"v":"瀵规瘮"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"推荐"}
+data: {"v":"鎺ㄨ崘"}
 
-data: {"v":"以"}
+data: {"v":"浠?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"作为"}
+data: {"v":"浣滀负"}
 
 data: {"v":"AI"}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"输出的"}
+data: {"v":"杈撳嚭鐨?}
 
-data: {"v":"默认"}
+data: {"v":"榛樿"}
 
-data: {"v":"协议"}
+data: {"v":"鍗忚"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"采用"}
+data: {"v":"閲囩敤"}
 
-data: {"v":"以下"}
+data: {"v":"浠ヤ笅"}
 
-data: {"v":"分层"}
+data: {"v":"鍒嗗眰"}
 
-data: {"v":"架构"}
+data: {"v":"鏋舵瀯"}
 
-data: {"v":"：\n\n"}
+data: {"v":"锛歕n\n"}
 
 data: {"v":"-"}
 
 data: {"v":" **"}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
 data: {"v":"**"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
-data: {"v":"浏览器"}
+data: {"v":"娴忚鍣?}
 
 data: {"v":"/"}
 
 data: {"v":"App"}
 
-data: {"v":"通过"}
+data: {"v":"閫氳繃"}
 
 data: {"v":"Event"}
 
 data: {"v":"Source"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
-data: {"v":"轻"}
+data: {"v":"杞?}
 
-data: {"v":"量"}
+data: {"v":"閲?}
 
 data: {"v":"SS"}
 
@@ -4609,259 +4609,259 @@ data: {"v":" poly"}
 
 data: {"v":"fill"}
 
-data: {"v":"）"}
+data: {"v":"锛?}
 
-data: {"v":"建立"}
+data: {"v":"寤虹珛"}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"接收"}
+data: {"v":"鎺ユ敹"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"数据"}
+data: {"v":"鏁版嵁"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"若"}
+data: {"v":"鑻?}
 
-data: {"v":"需"}
+data: {"v":"闇€"}
 
-data: {"v":"发送"}
+data: {"v":"鍙戦€?}
 
-data: {"v":"控制"}
+data: {"v":"鎺у埗"}
 
-data: {"v":"指令"}
+data: {"v":"鎸囦护"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"如"}
+data: {"v":"濡?}
 
-data: {"v":"停止"}
+data: {"v":"鍋滄"}
 
-data: {"v":"生成"}
+data: {"v":"鐢熸垚"}
 
-data: {"v":"），"}
+data: {"v":"锛夛紝"}
 
-data: {"v":"可通过"}
+data: {"v":"鍙€氳繃"}
 
-data: {"v":"独立"}
+data: {"v":"鐙珛"}
 
 data: {"v":"HTTP"}
 
 data: {"v":" API"}
 
-data: {"v":"发出"}
+data: {"v":"鍙戝嚭"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"形成"}
+data: {"v":"褰㈡垚"}
 
-data: {"v":"“"}
+data: {"v":"鈥?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"推"}
+data: {"v":"鎺?}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
 data: {"v":" +"}
 
 data: {"v":" HTTP"}
 
-data: {"v":"指令"}
+data: {"v":"鎸囦护"}
 
-data: {"v":"”"}
+data: {"v":"鈥?}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
-data: {"v":"混合"}
+data: {"v":"娣峰悎"}
 
-data: {"v":"模式"}
+data: {"v":"妯″紡"}
 
-data: {"v":"。\n"}
+data: {"v":"銆俓n"}
 
 data: {"v":"-"}
 
 data: {"v":" **"}
 
-data: {"v":"接入"}
+data: {"v":"鎺ュ叆"}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
 data: {"v":"**"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
-data: {"v":"部署"}
+data: {"v":"閮ㄧ讲"}
 
-data: {"v":"支持"}
+data: {"v":"鏀寔"}
 
-data: {"v":"长"}
+data: {"v":"闀?}
 
-data: {"v":"连接的"}
+data: {"v":"杩炴帴鐨?}
 
 data: {"v":"API"}
 
-data: {"v":"网关"}
+data: {"v":"缃戝叧"}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
-data: {"v":"反向"}
+data: {"v":"鍙嶅悜"}
 
-data: {"v":"代理"}
+data: {"v":"浠ｇ悊"}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"如"}
+data: {"v":"濡?}
 
 data: {"v":"N"}
 
 data: {"v":"ginx"}
 
-data: {"v":"），"}
+data: {"v":"锛夛紝"}
 
-data: {"v":"负责"}
+data: {"v":"璐熻矗"}
 
 data: {"v":"SSL"}
 
-data: {"v":"卸载"}
+data: {"v":"鍗歌浇"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"限"}
+data: {"v":"闄?}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"认证"}
+data: {"v":"璁よ瘉"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"请求"}
+data: {"v":"璇锋眰"}
 
-data: {"v":"路由"}
+data: {"v":"璺敱"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"配置"}
+data: {"v":"閰嶇疆"}
 
-data: {"v":"禁用"}
+data: {"v":"绂佺敤"}
 
-data: {"v":"缓冲"}
+data: {"v":"缂撳啿"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"延长"}
+data: {"v":"寤堕暱"}
 
-data: {"v":"超"}
+data: {"v":"瓒?}
 
-data: {"v":"时"}
+data: {"v":"鏃?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"透"}
+data: {"v":"閫?}
 
-data: {"v":"传"}
+data: {"v":"浼?}
 
-data: {"v":"必要"}
+data: {"v":"蹇呰"}
 
-data: {"v":"头"}
+data: {"v":"澶?}
 
-data: {"v":"域"}
+data: {"v":"鍩?}
 
-data: {"v":"。\n"}
+data: {"v":"銆俓n"}
 
 data: {"v":"-"}
 
 data: {"v":" **"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"服务"}
+data: {"v":"鏈嶅姟"}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
 data: {"v":"**"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
-data: {"v":"核心"}
+data: {"v":"鏍稿績"}
 
-data: {"v":"中间"}
+data: {"v":"涓棿"}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"管理"}
+data: {"v":"绠＄悊"}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"连接"}
+data: {"v":"杩炴帴"}
 
-data: {"v":"生命周期"}
+data: {"v":"鐢熷懡鍛ㄦ湡"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"会话"}
+data: {"v":"浼氳瘽"}
 
-data: {"v":"状态"}
+data: {"v":"鐘舵€?}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
-data: {"v":"事件"}
+data: {"v":"浜嬩欢"}
 
-data: {"v":"缓存"}
+data: {"v":"缂撳瓨"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"该"}
+data: {"v":"璇?}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"将"}
+data: {"v":"灏?}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"引擎"}
+data: {"v":"寮曟搸"}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
 data: {"v":"token"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"转化为"}
+data: {"v":"杞寲涓?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"事件"}
+data: {"v":"浜嬩欢"}
 
-data: {"v":"并"}
+data: {"v":"骞?}
 
-data: {"v":"广播"}
+data: {"v":"骞挎挱"}
 
-data: {"v":"；"}
+data: {"v":"锛?}
 
-data: {"v":"同时"}
+data: {"v":"鍚屾椂"}
 
-data: {"v":"基于"}
+data: {"v":"鍩轰簬"}
 
 data: {"v":"`"}
 
@@ -4875,67 +4875,67 @@ data: {"v":"-ID"}
 
 data: {"v":"`"}
 
-data: {"v":"实现"}
+data: {"v":"瀹炵幇"}
 
-data: {"v":"断"}
+data: {"v":"鏂?}
 
-data: {"v":"线"}
+data: {"v":"绾?}
 
-data: {"v":"续"}
+data: {"v":"缁?}
 
-data: {"v":"传"}
+data: {"v":"浼?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"维护"}
+data: {"v":"缁存姢"}
 
-data: {"v":"一个"}
+data: {"v":"涓€涓?}
 
-data: {"v":"有限"}
+data: {"v":"鏈夐檺"}
 
-data: {"v":"大小的"}
+data: {"v":"澶у皬鐨?}
 
-data: {"v":"轮"}
+data: {"v":"杞?}
 
-data: {"v":"转"}
+data: {"v":"杞?}
 
-data: {"v":"事件"}
+data: {"v":"浜嬩欢"}
 
-data: {"v":"缓冲区"}
+data: {"v":"缂撳啿鍖?}
 
-data: {"v":"。\n"}
+data: {"v":"銆俓n"}
 
 data: {"v":"-"}
 
 data: {"v":" **"}
 
-data: {"v":"推理"}
+data: {"v":"鎺ㄧ悊"}
 
-data: {"v":"引擎"}
+data: {"v":"寮曟搸"}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
 data: {"v":"**"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
-data: {"v":"封装"}
+data: {"v":"灏佽"}
 
 data: {"v":"AI"}
 
-data: {"v":"模型"}
+data: {"v":"妯″瀷"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"提供"}
+data: {"v":"鎻愪緵"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"回调"}
+data: {"v":"鍥炶皟"}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
 data: {"v":"g"}
 
@@ -4943,277 +4943,277 @@ data: {"v":"R"}
 
 data: {"v":"PC"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"接口"}
+data: {"v":"鎺ュ彛"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"向"}
+data: {"v":"鍚?}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"服务"}
+data: {"v":"鏈嶅姟"}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"逐"}
+data: {"v":"閫?}
 
 data: {"v":"token"}
 
-data: {"v":"输出"}
+data: {"v":"杈撳嚭"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"该"}
+data: {"v":"璇?}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"可"}
+data: {"v":"鍙?}
 
-data: {"v":"无"}
+data: {"v":"鏃?}
 
-data: {"v":"状态"}
+data: {"v":"鐘舵€?}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
-data: {"v":"依赖"}
+data: {"v":"渚濊禆"}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"服务"}
+data: {"v":"鏈嶅姟"}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"传递"}
+data: {"v":"浼犻€?}
 
-data: {"v":"的"}
+data: {"v":"鐨?}
 
-data: {"v":"上下文"}
+data: {"v":"涓婁笅鏂?}
 
-data: {"v":"。\n"}
+data: {"v":"銆俓n"}
 
 data: {"v":"-"}
 
 data: {"v":" **"}
 
-data: {"v":"可"}
+data: {"v":"鍙?}
 
-data: {"v":"观测"}
+data: {"v":"瑙傛祴"}
 
-data: {"v":"性"}
+data: {"v":"鎬?}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
 data: {"v":"**"}
 
-data: {"v":"："}
+data: {"v":"锛?}
 
-data: {"v":"贯穿"}
+data: {"v":"璐┛"}
 
-data: {"v":"各"}
+data: {"v":"鍚?}
 
-data: {"v":"层"}
+data: {"v":"灞?}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"统一"}
+data: {"v":"缁熶竴"}
 
-data: {"v":"采集"}
+data: {"v":"閲囬泦"}
 
-data: {"v":"日志"}
+data: {"v":"鏃ュ織"}
 
-data: {"v":"、"}
+data: {"v":"銆?}
 
-data: {"v":"指标"}
+data: {"v":"鎸囨爣"}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
-data: {"v":"追踪"}
+data: {"v":"杩借釜"}
 
-data: {"v":"数据"}
+data: {"v":"鏁版嵁"}
 
-data: {"v":"。"}
+data: {"v":"銆?}
 
-data: {"v":"利用"}
+data: {"v":"鍒╃敤"}
 
-data: {"v":"接入"}
+data: {"v":"鎺ュ叆"}
 
-data: {"v":"层的"}
+data: {"v":"灞傜殑"}
 
-data: {"v":"访问"}
+data: {"v":"璁块棶"}
 
-data: {"v":"日志"}
+data: {"v":"鏃ュ織"}
 
-data: {"v":"和"}
+data: {"v":"鍜?}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"服务"}
+data: {"v":"鏈嶅姟"}
 
-data: {"v":"层的"}
+data: {"v":"灞傜殑"}
 
-data: {"v":"业务"}
+data: {"v":"涓氬姟"}
 
-data: {"v":"日志"}
+data: {"v":"鏃ュ織"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"快速"}
+data: {"v":"蹇€?}
 
-data: {"v":"定位"}
+data: {"v":"瀹氫綅"}
 
-data: {"v":"延迟"}
+data: {"v":"寤惰繜"}
 
-data: {"v":"或"}
+data: {"v":"鎴?}
 
-data: {"v":"断开"}
+data: {"v":"鏂紑"}
 
-data: {"v":"问题"}
+data: {"v":"闂"}
 
-data: {"v":"。\n\n"}
+data: {"v":"銆俓n\n"}
 
-data: {"v":"若"}
+data: {"v":"鑻?}
 
-data: {"v":"场景"}
+data: {"v":"鍦烘櫙"}
 
-data: {"v":"中"}
+data: {"v":"涓?}
 
-data: {"v":"客户端"}
+data: {"v":"瀹㈡埛绔?}
 
-data: {"v":"与"}
+data: {"v":"涓?}
 
-data: {"v":"服务器"}
+data: {"v":"鏈嶅姟鍣?}
 
-data: {"v":"有"}
+data: {"v":"鏈?}
 
-data: {"v":"高频"}
+data: {"v":"楂橀"}
 
-data: {"v":"双向"}
+data: {"v":"鍙屽悜"}
 
-data: {"v":"交互"}
+data: {"v":"浜や簰"}
 
-data: {"v":"需求"}
+data: {"v":"闇€姹?}
 
-data: {"v":"（"}
+data: {"v":"锛?}
 
-data: {"v":"如"}
+data: {"v":"濡?}
 
-data: {"v":"实时"}
+data: {"v":"瀹炴椂"}
 
-data: {"v":"对话"}
+data: {"v":"瀵硅瘽"}
 
-data: {"v":"调整"}
+data: {"v":"璋冩暣"}
 
-data: {"v":"参数"}
+data: {"v":"鍙傛暟"}
 
-data: {"v":"），"}
+data: {"v":"锛夛紝"}
 
-data: {"v":"可"}
+data: {"v":"鍙?}
 
-data: {"v":"局部"}
+data: {"v":"灞€閮?}
 
-data: {"v":"引入"}
+data: {"v":"寮曞叆"}
 
 data: {"v":"Web"}
 
 data: {"v":"Socket"}
 
-data: {"v":"，"}
+data: {"v":"锛?}
 
-data: {"v":"但仍"}
+data: {"v":"浣嗕粛"}
 
-data: {"v":"建议"}
+data: {"v":"寤鸿"}
 
-data: {"v":"将"}
+data: {"v":"灏?}
 
-data: {"v":"流"}
+data: {"v":"娴?}
 
-data: {"v":"式"}
+data: {"v":"寮?}
 
-data: {"v":"输出"}
+data: {"v":"杈撳嚭"}
 
-data: {"v":"统一"}
+data: {"v":"缁熶竴"}
 
-data: {"v":"收敛"}
+data: {"v":"鏀舵暃"}
 
-data: {"v":"到"}
-
-data: {"v":"SS"}
-
-data: {"v":"E"}
-
-data: {"v":"，"}
-
-data: {"v":"以"}
-
-data: {"v":"保留"}
-
-data: {"v":"可靠"}
-
-data: {"v":"性和"}
-
-data: {"v":"可"}
-
-data: {"v":"观测"}
-
-data: {"v":"性"}
-
-data: {"v":"优势"}
-
-data: {"v":"。"}
-
-data: {"v":"总体"}
-
-data: {"v":"而言"}
-
-data: {"v":"，"}
-
-data: {"v":"优先"}
-
-data: {"v":"选择"}
+data: {"v":"鍒?}
 
 data: {"v":"SS"}
 
 data: {"v":"E"}
 
-data: {"v":"能够"}
+data: {"v":"锛?}
 
-data: {"v":"以"}
+data: {"v":"浠?}
 
-data: {"v":"更"}
+data: {"v":"淇濈暀"}
 
-data: {"v":"低的"}
+data: {"v":"鍙潬"}
 
-data: {"v":"工程量"}
+data: {"v":"鎬у拰"}
 
-data: {"v":"实现"}
+data: {"v":"鍙?}
 
-data: {"v":"稳定"}
+data: {"v":"瑙傛祴"}
 
-data: {"v":"、"}
+data: {"v":"鎬?}
 
-data: {"v":"可"}
+data: {"v":"浼樺娍"}
 
-data: {"v":"维护"}
+data: {"v":"銆?}
 
-data: {"v":"的"}
+data: {"v":"鎬讳綋"}
 
-data: {"v":"流"}
+data: {"v":"鑰岃█"}
 
-data: {"v":"式"}
+data: {"v":"锛?}
 
-data: {"v":"推理"}
+data: {"v":"浼樺厛"}
 
-data: {"v":"系统"}
+data: {"v":"閫夋嫨"}
 
-data: {"v":"。"}
+data: {"v":"SS"}
+
+data: {"v":"E"}
+
+data: {"v":"鑳藉"}
+
+data: {"v":"浠?}
+
+data: {"v":"鏇?}
+
+data: {"v":"浣庣殑"}
+
+data: {"v":"宸ョ▼閲?}
+
+data: {"v":"瀹炵幇"}
+
+data: {"v":"绋冲畾"}
+
+data: {"v":"銆?}
+
+data: {"v":"鍙?}
+
+data: {"v":"缁存姢"}
+
+data: {"v":"鐨?}
+
+data: {"v":"娴?}
+
+data: {"v":"寮?}
+
+data: {"v":"鎺ㄧ悊"}
+
+data: {"v":"绯荤粺"}
+
+data: {"v":"銆?}
 
 data: {"p":"response","o":"BATCH","v":[{"p":"accumulated_token_usage","v":1357},{"p":"quasi_status","v":"FINISHED"}]}
 
@@ -5223,7 +5223,7 @@ event: update_session
 data: {"updated_at":1777485165.4124339}
 
 event: title
-data: {"content":"SSE与WebSocket流式输出比较"}
+data: {"content":"SSE涓嶹ebSocket娴佸紡杈撳嚭姣旇緝"}
 
 event: close
 data: {"click_behavior":"none","auto_resume":false}

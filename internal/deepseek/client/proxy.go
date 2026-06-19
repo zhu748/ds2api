@@ -181,6 +181,9 @@ func applyProxyConnectivityHeaders(req *http.Request) {
 		}
 		req.Header.Set(key, value)
 	}
+	if req.Header.Get("x-rangers-id") == "" {
+		req.Header.Set("x-rangers-id", dsprotocol.BaseHeaders["x-rangers-id"])
+	}
 }
 
 func proxyConnectivityStatus(statusCode int) (bool, string) {

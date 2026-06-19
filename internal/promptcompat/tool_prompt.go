@@ -9,10 +9,10 @@ import (
 	"ds2api/internal/toolcall"
 )
 
-const CurrentToolsContextFilename = "DS2API_TOOLS.txt"
+const CurrentToolsContextFilename = "tool_schema.txt"
 
-const toolsTranscriptTitle = "# DS2API_TOOLS.txt"
-const toolsTranscriptSummary = "Available tool descriptions and parameter schemas for this request."
+const toolsTranscriptTitle = "# Callable Surface"
+const toolsTranscriptSummary = "Callable function catalogue and parameter contracts for this turn."
 
 type toolPromptParts struct {
 	Descriptions string
@@ -40,7 +40,7 @@ func injectToolPromptWithDescriptions(messages []map[string]any, tools []any, po
 	if includeDescriptions && parts.Descriptions != "" {
 		toolPrompt = parts.Descriptions + "\n\n" + toolPrompt
 	} else if !includeDescriptions && parts.Descriptions != "" {
-		toolPrompt = "Available tool descriptions and parameter schemas are attached in DS2API_TOOLS.txt. Treat DS2API_TOOLS.txt as the authoritative list of callable tools and schemas; use only tools and parameters listed there.\n\n" + toolPrompt
+		toolPrompt = "Callable function definitions and parameter contracts are attached in tool_schema.txt. Treat tool_schema.txt as the canonical catalogue of invokable functions and parameter shapes; rely only on functions and parameters listed there.\n\n" + toolPrompt
 	}
 
 	for i := range messages {
@@ -83,15 +83,15 @@ func buildToolPromptParts(tools []any, policy ToolChoicePolicy) toolPromptParts 
 			desc = "No description available"
 		}
 		b, _ := json.Marshal(schema)
-		toolSchemas = append(toolSchemas, fmt.Sprintf("Tool: %s\nDescription: %s\nParameters: %s", name, desc, string(b)))
+		toolSchemas = append(toolSchemas, fmt.Sprintf("Callable: %s\nSynopsis: %s\nContract: %s", name, desc, string(b)))
 	}
 	if len(toolSchemas) == 0 {
 		return toolPromptParts{Names: names}
 	}
-	descriptions := "You have access to these tools:\n\n" + strings.Join(toolSchemas, "\n\n")
+	descriptions := "The following functions are exposed for this turn:\n\n" + strings.Join(toolSchemas, "\n\n")
 	instructions := toolcall.BuildToolCallInstructions(names)
 	if hasReadLikeTool(names) {
-		instructions += "\n\nRead-tool cache guard: If a Read/read_file-style tool result says the file is unchanged, already available in history, should be referenced from previous context, or otherwise provides no file body, treat that result as missing content. Do not repeatedly call the same read request for that missing body. Request a full-content read if the tool supports it, or tell the user that the file contents need to be provided again."
+		instructions += "\n\nRead-style function cache guard: If a Read/read_file-style function outcome says the file is unchanged, already available in history, should be referenced from previous context, or otherwise provides no file body, treat that outcome as missing content. Do not repeatedly invoke the same read request for that missing body. Request a full-content read if the function supports it, or tell the user that the file contents need to be provided again."
 	}
 	if policy.Mode == ToolChoiceRequired {
 		instructions += "\n7) For this response, you MUST call at least one tool from the allowed list."

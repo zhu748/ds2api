@@ -114,7 +114,7 @@ func TestBuildToolCallInstructions_AnchorsMissingOpeningWrapperFailureMode(t *te
 	if !strings.Contains(out, "Never omit the opening <|DSML|tool_calls> tag") {
 		t.Fatalf("expected explicit missing-opening-tag warning, got: %s", out)
 	}
-	if !strings.Contains(out, "Wrong 3 — missing opening wrapper") {
+	if !strings.Contains(out, "Incorrect 3 — missing opening wrapper") {
 		t.Fatalf("expected missing-opening-wrapper negative example, got: %s", out)
 	}
 }
@@ -123,9 +123,9 @@ func TestBuildToolCallInstructions_RejectsEmptyParametersInPrompt(t *testing.T) 
 	out := BuildToolCallInstructions([]string{"Bash"})
 	for _, want := range []string{
 		"Do not emit placeholder, blank, or whitespace-only parameters.",
-		"If a required parameter value is unknown, ask the user or answer normally instead of outputting an empty tool call.",
-		"Never call them with an empty command.",
-		"Wrong 4 — empty parameters",
+		"If a required parameter value is unknown, ask the user or answer normally instead of producing an empty invocation.",
+		"Never invoke them with an empty command.",
+		"Incorrect 4 — empty parameters",
 	} {
 		if !strings.Contains(out, want) {
 			t.Fatalf("expected empty-parameter instruction %q, got: %s", want, out)
